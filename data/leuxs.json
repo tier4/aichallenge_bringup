@@ -1,0 +1,184 @@
+[
+    {
+      "type": "GPS Device",
+      "name": "GPS",
+      "params": {
+        "Frequency": 12.5,
+        "Topic": "/nmea_sentence",
+        "Frame": "gps",
+        "IgnoreMapOrigin": true
+      },
+      "transform": { "x": -0.3, "y": 1.9, "z": -0.7, "pitch": 0, "yaw": 0, "roll": 0 }
+    },
+    {
+      "type": "GPS Odometry",
+      "name": "GPS Odometry",
+      "params": {
+        "Frequency": 12.5,
+        "Topic": "/odom",
+        "Frame": "gps",
+        "IgnoreMapOrigin": true
+      },
+      "transform": { "x": -0.3, "y": 1.9, "z": -0.7, "pitch": 0, "yaw": 0, "roll": 0 }
+    },
+    {
+      "type": "IMU",
+      "name": "IMU",
+      "params": { "Topic": "/imu_raw", "Frame": "imu" },
+      "transform": { "x": 0, "y": 1.9, "z": -0.4, "pitch": 0, "yaw": 0, "roll": 0 }
+    },
+    {
+      "type": "Lidar",
+      "name": "Top Lidar",
+      "params": {
+        "LaserCount": 32,
+        "MinDistance": 0.5,
+        "MaxDistance": 100,
+        "RotationFrequency": 10,
+        "MeasurementsPerRotation": 360,
+        "FieldOfView": 40,
+        "CenterAngle": 5,
+        "Compensated": true,
+        "PointColor": "#ff000000",
+        "Topic": "/top_velodyne/points_raw",
+        "Frame": "top_velodyne_link"
+      },
+      "transform": {
+        "x": 0,
+        "y": 2.1263,
+        "z": -0.4,
+        "pitch": 0,
+        "yaw": 0,
+        "roll": 0
+      }
+    },
+    {
+      "type": "Lidar",
+      "name": "Left Lidar",
+      "params": {
+        "LaserCount": 16,
+        "MinDistance": 0.5,
+        "MaxDistance": 100,
+        "RotationFrequency": 10,
+        "MeasurementsPerRotation": 360,
+        "FieldOfView": 30,
+        "CenterAngle": 0,
+        "Compensated": true,
+        "PointColor": "#00ff0000",
+        "Topic": "/left_velodyne/points_raw",
+        "Frame": "left_velodyne_link"
+      },
+      "transform": {
+        "x": -0.58786,
+        "y": 1.81233,
+        "z": -0.4,
+        "pitch": 40,
+        "yaw": -90,
+        "roll": 0
+      }
+    },
+    {
+      "type": "Lidar",
+      "name": "Right Lidar",
+      "params": {
+        "LaserCount": 16,
+        "MinDistance": 0.5,
+        "MaxDistance": 100,
+        "RotationFrequency": 10,
+        "MeasurementsPerRotation": 360,
+        "FieldOfView": 30,
+        "CenterAngle": 0,
+        "Compensated": true,
+        "PointColor": "#0000ff00",
+        "Topic": "/right_velodyne/points_raw",
+        "Frame": "right_velodyne_link"
+      },
+      "transform": {
+        "x": 0.58786,
+        "y": 1.81233,
+        "z": -0.4,
+        "pitch": 40,
+        "yaw": 90,
+        "roll": 0
+      }
+    },
+    {
+      "type": "Color Camera",
+      "name": "Front Camera",
+      "params": {
+        "Width": 720,
+        "Height": 540,
+        "Frequency": 15,
+        "JpegQuality": 75,
+        "FieldOfView": 56.1,
+        "MinDistance": 0.1,
+        "MaxDistance": 1000,
+        "Topic": "/front_camera/image/compressed",
+        "Frame": "front_camera_optical_link"
+      },
+      "transform": {
+        "x": 0,
+        "y": 2.0365,
+        "z": -0.34844,
+        "pitch": 0,
+        "yaw": 0,
+        "roll": 0
+      }
+    },
+    {
+        "type": "Keyboard Control",
+        "name": "Keyboard Car Control"
+    },
+    { 
+      "type":"AccSensor",
+      "name":"AccSensor",
+      "transform":{ 
+         "x":0.0,
+         "y":0.5,
+         "z":0.0,
+         "pitch":0,
+         "yaw":0,
+         "roll":0
+      },
+      "params":{ 
+         "Topic":"/acc/score"
+      }
+   },
+   { 
+      "type":"ObstacleAvoidSensor",
+      "name":"ObstacleAvoidSensor",
+      "transform":{ 
+         "x":0.0,
+         "y":0.5,
+         "z":0.0,
+         "pitch":0,
+         "yaw":0,
+         "roll":0
+      },
+      "params":{ 
+         "Topic":"/obstacle_avoid/score"
+      }
+   },
+   { 
+      "type":"TrafficLightSensor",
+      "name":"TrafficLightSensor",
+      "transform":{ 
+         "x":0.0,
+         "y":0.5,
+         "z":0.0,
+         "pitch":0,
+         "yaw":0,
+         "roll":0
+      },
+      "params":{ 
+         "Topic":"/traffic_light/score"
+      }
+   },
+   {
+    "type": "Vehicle Control",
+    "name": "Autoware Car Control",
+    "params": {
+      "Topic": "/vehicle_cmd"
+    }
+  }
+]

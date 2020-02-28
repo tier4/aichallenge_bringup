@@ -1,0 +1,3760 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="LGSVL Simulator">
+  <node id="1" lat="37.4168393338402" lon="-122.016550929682" visible="true" version="1">
+<tag k="local_y" v="-7.830422"/>
+<tag k="local_x" v="-45.43166"/>
+<tag k="ele" v="-2.256881"/>
+</node>
+  <node id="2" lat="37.4168328574092" lon="-122.015971545796" visible="true" version="1">
+<tag k="local_y" v="-8.014028"/>
+<tag k="local_x" v="5.84635"/>
+<tag k="ele" v="-1.96006"/>
+</node>
+  <way id="3" visible="true" version="1">
+<nd ref="1"/>
+<nd ref="2"/>
+</way>
+  <node id="4" lat="37.4168029565809" lon="-122.016552399714" visible="true" version="1">
+<tag k="local_y" v="-11.86767"/>
+<tag k="local_x" v="-45.51965"/>
+<tag k="ele" v="-2.20555"/>
+</node>
+  <node id="5" lat="37.41680228419" lon="-122.015973958248" visible="true" version="1">
+<tag k="local_y" v="-11.40821"/>
+<tag k="local_x" v="5.668268"/>
+<tag k="ele" v="-1.957637"/>
+</node>
+  <way id="6" visible="true" version="1">
+<nd ref="4"/>
+<nd ref="5"/>
+</way>
+  <relation id="7" visible="true" version="1">
+<member type="way" ref="3" role="left"/>
+<member type="way" ref="6" role="right"/>
+<member type="relation" ref="511" role="regulatory_element"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="8" lat="37.416869847148" lon="-122.016551698289" visible="true" version="1">
+<tag k="local_y" v="-4.44582"/>
+<tag k="local_x" v="-45.53498"/>
+<tag k="ele" v="-2.194487"/>
+</node>
+  <node id="9" lat="37.4168642887836" lon="-122.015972046653" visible="true" version="1">
+<tag k="local_y" v="-4.527324"/>
+<tag k="local_x" v="5.765635"/>
+<tag k="ele" v="-1.942355"/>
+</node>
+  <way id="10" visible="true" version="1">
+<nd ref="8"/>
+<nd ref="9"/>
+</way>
+  <relation id="11" visible="true" version="1">
+<member type="way" ref="10" role="left"/>
+<member type="way" ref="3" role="right"/>
+<member type="relation" ref="511" role="regulatory_element"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="12" lat="37.4169036558722" lon="-122.016551248933" visible="true" version="1">
+<tag k="local_y" v="-0.6944833"/>
+<tag k="local_x" v="-45.53434"/>
+<tag k="ele" v="-2.004277"/>
+</node>
+  <node id="13" lat="37.4168929724015" lon="-122.015969915976" visible="true" version="1">
+<tag k="local_y" v="-1.34304"/>
+<tag k="local_x" v="5.920969"/>
+<tag k="ele" v="-1.928555"/>
+</node>
+  <way id="14" visible="true" version="1">
+<nd ref="12"/>
+<nd ref="13"/>
+</way>
+  <relation id="15" visible="true" version="1">
+<member type="way" ref="14" role="left"/>
+<member type="way" ref="10" role="right"/>
+<member type="relation" ref="511" role="regulatory_element"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="16" lat="37.4169164954062" lon="-122.016548848805" visible="true" version="1">
+<tag k="local_y" v="0.7322192"/>
+<tag k="local_x" v="-45.33681"/>
+<tag k="ele" v="-1.920526"/>
+</node>
+  <node id="17" lat="37.416924021013" lon="-122.016441588017" visible="true" version="1">
+<tag k="local_y" v="1.666157"/>
+<tag k="local_x" v="-35.85387"/>
+<tag k="ele" v="-1.899127"/>
+</node>
+  <node id="18" lat="37.4169273988962" lon="-122.016309318533" visible="true" version="1">
+<tag k="local_y" v="2.163023"/>
+<tag k="local_x" v="-24.15307"/>
+<tag k="ele" v="-1.893632"/>
+</node>
+  <node id="19" lat="37.4169266290135" lon="-122.016152042267" visible="true" version="1">
+<tag k="local_y" v="2.222821"/>
+<tag k="local_x" v="-10.2346"/>
+<tag k="ele" v="-1.904041"/>
+</node>
+  <node id="20" lat="37.416921711856" lon="-122.01596975116" visible="true" version="1">
+<tag k="local_y" v="1.845622"/>
+<tag k="local_x" v="5.902277"/>
+<tag k="ele" v="-1.930353"/>
+</node>
+  <way id="21" visible="true" version="1">
+<nd ref="16"/>
+<nd ref="17"/>
+<nd ref="18"/>
+<nd ref="19"/>
+<nd ref="20"/>
+</way>
+  <relation id="22" visible="true" version="1">
+<member type="way" ref="21" role="left"/>
+<member type="way" ref="14" role="right"/>
+<member type="relation" ref="511" role="regulatory_element"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="23" lat="37.4169996311179" lon="-122.015964856422" visible="true" version="1">
+<tag k="local_y" v="10.49493"/>
+<tag k="local_x" v="6.245197"/>
+<tag k="ele" v="-2.178046"/>
+</node>
+  <node id="24" lat="37.4169931603015" lon="-122.016545052332" visible="true" version="1">
+<tag k="local_y" v="9.241341"/>
+<tag k="local_x" v="-45.08957"/>
+<tag k="ele" v="-2.281963"/>
+</node>
+  <way id="25" visible="true" version="1">
+<nd ref="23"/>
+<nd ref="24"/>
+</way>
+  <node id="26" lat="37.4170269132673" lon="-122.015965806784" visible="true" version="1">
+<tag k="local_y" v="13.52088"/>
+<tag k="local_x" v="6.129509"/>
+<tag k="ele" v="-2.293166"/>
+</node>
+  <node id="27" lat="37.4170247717678" lon="-122.016542721235" visible="true" version="1">
+<tag k="local_y" v="12.75064"/>
+<tag k="local_x" v="-44.91987"/>
+<tag k="ele" v="-2.435066"/>
+</node>
+  <way id="28" visible="true" version="1">
+<nd ref="26"/>
+<nd ref="27"/>
+</way>
+  <relation id="29" visible="true" version="1">
+<member type="way" ref="25" role="left"/>
+<member type="way" ref="28" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="30" lat="37.4169694520615" lon="-122.015966083101" visible="true" version="1">
+<tag k="local_y" v="7.145566"/>
+<tag k="local_x" v="6.171591"/>
+<tag k="ele" v="-2.083868"/>
+</node>
+  <node id="31" lat="37.4169640367667" lon="-122.016549494575" visible="true" version="1">
+<tag k="local_y" v="6.006118"/>
+<tag k="local_x" v="-45.44897"/>
+<tag k="ele" v="-2.142795"/>
+</node>
+  <way id="32" visible="true" version="1">
+<nd ref="30"/>
+<nd ref="31"/>
+</way>
+  <relation id="33" visible="true" version="1">
+<member type="way" ref="32" role="left"/>
+<member type="way" ref="25" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="34" lat="37.4169408163212" lon="-122.015966470466" visible="true" version="1">
+<tag k="local_y" v="3.968204"/>
+<tag k="local_x" v="6.170469"/>
+<tag k="ele" v="-1.990921"/>
+</node>
+  <node id="35" lat="37.416943552237" lon="-122.016544135973" visible="true" version="1">
+<tag k="local_y" v="3.7384"/>
+<tag k="local_x" v="-44.95107"/>
+<tag k="ele" v="-2.024814"/>
+</node>
+  <way id="36" visible="true" version="1">
+<nd ref="34"/>
+<nd ref="35"/>
+</way>
+  <relation id="37" visible="true" version="1">
+<member type="way" ref="36" role="left"/>
+<member type="way" ref="32" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="38" lat="37.4168253473865" lon="-122.015684490725" visible="true" version="1">
+<tag k="local_y" v="-8.582086"/>
+<tag k="local_x" v="31.25696"/>
+<tag k="ele" v="-1.881003"/>
+</node>
+  <node id="39" lat="37.4168235550252" lon="-122.015249983341" visible="true" version="1">
+<tag k="local_y" v="-8.379451"/>
+<tag k="local_x" v="69.70923"/>
+<tag k="ele" v="-1.829833"/>
+</node>
+  <way id="40" visible="true" version="1">
+<nd ref="38"/>
+<nd ref="39"/>
+</way>
+  <node id="41" lat="37.4167950148782" lon="-122.015685915512" visible="true" version="1">
+<tag k="local_y" v="-11.94865"/>
+<tag k="local_x" v="31.16601"/>
+<tag k="ele" v="-1.883088"/>
+</node>
+  <node id="42" lat="37.416791350988" lon="-122.015252690271" visible="true" version="1">
+<tag k="local_y" v="-11.95484"/>
+<tag k="local_x" v="69.507"/>
+<tag k="ele" v="-1.800259"/>
+</node>
+  <way id="43" visible="true" version="1">
+<nd ref="41"/>
+<nd ref="42"/>
+</way>
+  <relation id="44" visible="true" version="1">
+<member type="way" ref="40" role="left"/>
+<member type="way" ref="43" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="45" lat="37.4168520985603" lon="-122.01568414844" visible="true" version="1">
+<tag k="local_y" v="-5.61385"/>
+<tag k="local_x" v="31.25627"/>
+<tag k="ele" v="-1.895903"/>
+</node>
+  <node id="46" lat="37.4168526024111" lon="-122.015247222731" visible="true" version="1">
+<tag k="local_y" v="-5.154225"/>
+<tag k="local_x" v="69.91986"/>
+<tag k="ele" v="-1.821643"/>
+</node>
+  <way id="47" visible="true" version="1">
+<nd ref="45"/>
+<nd ref="46"/>
+</way>
+  <relation id="48" visible="true" version="1">
+<member type="way" ref="47" role="left"/>
+<member type="way" ref="40" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="49" lat="37.4168833487767" lon="-122.015685021955" visible="true" version="1">
+<tag k="local_y" v="-2.147589"/>
+<tag k="local_x" v="31.14278"/>
+<tag k="ele" v="-1.91343"/>
+</node>
+  <node id="50" lat="37.4168814163" lon="-122.015393064905" visible="true" version="1">
+<tag k="local_y" v="-2.092237"/>
+<tag k="local_x" v="56.9807"/>
+<tag k="ele" v="-1.803727"/>
+</node>
+  <node id="51" lat="37.4168772989513" lon="-122.015246484304" visible="true" version="1">
+<tag k="local_y" v="-2.413575"/>
+<tag k="local_x" v="69.95659"/>
+<tag k="ele" v="-1.790014"/>
+</node>
+  <way id="52" visible="true" version="1">
+<nd ref="49"/>
+<nd ref="50"/>
+<nd ref="51"/>
+</way>
+  <relation id="53" visible="true" version="1">
+<member type="way" ref="52" role="left"/>
+<member type="way" ref="47" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="54" lat="37.4169792440614" lon="-122.015239693634" visible="true" version="1">
+<tag k="local_y" v="8.903043"/>
+<tag k="local_x" v="70.43938"/>
+<tag k="ele" v="-2.044237"/>
+</node>
+  <node id="55" lat="37.4169952366976" lon="-122.015668393778" visible="true" version="1">
+<tag k="local_y" v="10.28122"/>
+<tag k="local_x" v="32.48463"/>
+<tag k="ele" v="-2.14821"/>
+</node>
+  <way id="56" visible="true" version="1">
+<nd ref="54"/>
+<nd ref="55"/>
+</way>
+  <node id="57" lat="37.4170116728976" lon="-122.015240705621" visible="true" version="1">
+<tag k="local_y" v="12.49994"/>
+<tag k="local_x" v="70.31225"/>
+<tag k="ele" v="-2.211198"/>
+</node>
+  <node id="58" lat="37.4170300603379" lon="-122.015663864428" visible="true" version="1">
+<tag k="local_y" v="14.14893"/>
+<tag k="local_x" v="32.84511"/>
+<tag k="ele" v="-2.258986"/>
+</node>
+  <way id="59" visible="true" version="1">
+<nd ref="57"/>
+<nd ref="58"/>
+</way>
+  <relation id="60" visible="true" version="1">
+<member type="way" ref="56" role="left"/>
+<member type="way" ref="59" role="right"/>
+<member type="relation" ref="567" role="regulatory_element"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="61" lat="37.4169534729429" lon="-122.015240765568" visible="true" version="1">
+<tag k="local_y" v="6.042865"/>
+<tag k="local_x" v="70.37438"/>
+<tag k="ele" v="-1.939582"/>
+</node>
+  <node id="62" lat="37.4169694242449" lon="-122.015672895534" visible="true" version="1">
+<tag k="local_y" v="7.413291"/>
+<tag k="local_x" v="32.11617"/>
+<tag k="ele" v="-2.078611"/>
+</node>
+  <way id="63" visible="true" version="1">
+<nd ref="61"/>
+<nd ref="62"/>
+</way>
+  <relation id="64" visible="true" version="1">
+<member type="way" ref="63" role="left"/>
+<member type="way" ref="56" role="right"/>
+<member type="relation" ref="567" role="regulatory_element"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="65" lat="37.4169215941433" lon="-122.015244415939" visible="true" version="1">
+<tag k="local_y" v="2.502685"/>
+<tag k="local_x" v="70.08829"/>
+<tag k="ele" v="-1.826101"/>
+</node>
+  <node id="66" lat="37.4169365258792" lon="-122.01567785464" visible="true" version="1">
+<tag k="local_y" v="3.758788"/>
+<tag k="local_x" v="31.71543"/>
+<tag k="ele" v="-1.989966"/>
+</node>
+  <way id="67" visible="true" version="1">
+<nd ref="65"/>
+<nd ref="66"/>
+</way>
+  <relation id="68" visible="true" version="1">
+<member type="way" ref="67" role="left"/>
+<member type="way" ref="63" role="right"/>
+<member type="relation" ref="567" role="regulatory_element"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="69" lat="37.416899897753" lon="-122.015244780305" visible="true" version="1">
+<tag k="local_y" v="0.09523296"/>
+<tag k="local_x" v="70.08119"/>
+<tag k="ele" v="-1.675918"/>
+</node>
+  <node id="70" lat="37.4169030964376" lon="-122.015680876084" visible="true" version="1">
+<tag k="local_y" v="0.04715347"/>
+<tag k="local_x" v="31.48678"/>
+<tag k="ele" v="-1.924414"/>
+</node>
+  <way id="71" visible="true" version="1">
+<nd ref="69"/>
+<nd ref="70"/>
+</way>
+  <relation id="72" visible="true" version="1">
+<member type="way" ref="71" role="left"/>
+<member type="way" ref="67" role="right"/>
+<member type="relation" ref="567" role="regulatory_element"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="73" lat="37.4166942787631" lon="-122.015884763053" visible="true" version="1">
+<tag k="local_y" v="-23.30854"/>
+<tag k="local_x" v="13.68635"/>
+<tag k="ele" v="-1.702222"/>
+</node>
+  <node id="74" lat="37.4164381315315" lon="-122.015892319074" visible="true" version="1">
+<tag k="local_y" v="-51.73388"/>
+<tag k="local_x" v="13.31431"/>
+<tag k="ele" v="-1.0317"/>
+</node>
+  <way id="75" visible="true" version="1">
+<nd ref="73"/>
+<nd ref="74"/>
+</way>
+  <node id="76" lat="37.4166966829331" lon="-122.015931819622" visible="true" version="1">
+<tag k="local_y" v="-23.08527"/>
+<tag k="local_x" v="9.519455"/>
+<tag k="ele" v="-1.755708"/>
+</node>
+  <node id="77" lat="37.4164377874859" lon="-122.015931002984" visible="true" version="1">
+<tag k="local_y" v="-51.80777"/>
+<tag k="local_x" v="9.8915"/>
+<tag k="ele" v="-1.102907"/>
+</node>
+  <way id="78" visible="true" version="1">
+<nd ref="76"/>
+<nd ref="77"/>
+</way>
+  <relation id="79" visible="true" version="1">
+<member type="way" ref="75" role="left"/>
+<member type="way" ref="78" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="80" lat="37.4166902313186" lon="-122.015847499091" visible="true" version="1">
+<tag k="local_y" v="-23.72317"/>
+<tag k="local_x" v="16.98858"/>
+<tag k="ele" v="-1.691186"/>
+</node>
+  <node id="81" lat="37.416434441697" lon="-122.015850208597" visible="true" version="1">
+<tag k="local_y" v="-52.10435"/>
+<tag k="local_x" v="17.04502"/>
+<tag k="ele" v="-0.9821583"/>
+</node>
+  <way id="82" visible="true" version="1">
+<nd ref="80"/>
+<nd ref="81"/>
+</way>
+  <relation id="83" visible="true" version="1">
+<member type="way" ref="82" role="left"/>
+<member type="way" ref="75" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="84" lat="37.4164359051102" lon="-122.015826049925" visible="true" version="1">
+<tag k="local_y" v="-51.91968"/>
+<tag k="local_x" v="19.18118"/>
+<tag k="ele" v="-0.977822"/>
+</node>
+  <node id="85" lat="37.4166884284705" lon="-122.015823237849" visible="true" version="1">
+<tag k="local_y" v="-23.90078"/>
+<tag k="local_x" v="19.13759"/>
+<tag k="ele" v="-1.7001"/>
+</node>
+  <way id="86" visible="true" version="1">
+<nd ref="84"/>
+<nd ref="85"/>
+</way>
+  <node id="87" lat="37.4164350719888" lon="-122.015772526461" visible="true" version="1">
+<tag k="local_y" v="-51.96267"/>
+<tag k="local_x" v="23.91853"/>
+<tag k="ele" v="-1.001814"/>
+</node>
+  <node id="88" lat="37.416681014825" lon="-122.01577154702" visible="true" version="1">
+<tag k="local_y" v="-24.67554"/>
+<tag k="local_x" v="23.72038"/>
+<tag k="ele" v="-1.720421"/>
+</node>
+  <way id="89" visible="true" version="1">
+<nd ref="87"/>
+<nd ref="88"/>
+</way>
+  <relation id="90" visible="true" version="1">
+<member type="way" ref="86" role="left"/>
+<member type="way" ref="89" role="right"/>
+<member type="relation" ref="598" role="regulatory_element"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="91" lat="37.4164326662528" lon="-122.015734072838" visible="true" version="1">
+<tag k="local_y" v="-52.19405"/>
+<tag k="local_x" v="27.32415"/>
+<tag k="ele" v="-1.038366"/>
+</node>
+  <node id="92" lat="37.4166511384948" lon="-122.015729320294" visible="true" version="1">
+<tag k="local_y" v="-27.95117"/>
+<tag k="local_x" v="27.49169"/>
+<tag k="ele" v="-1.705631"/>
+</node>
+  <node id="93" lat="37.4166806023037" lon="-122.01572652964" visible="true" version="1">
+<tag k="local_y" v="-24.67972"/>
+<tag k="local_x" v="27.70452"/>
+<tag k="ele" v="-1.71"/>
+</node>
+  <way id="94" visible="true" version="1">
+<nd ref="91"/>
+<nd ref="92"/>
+<nd ref="93"/>
+</way>
+  <relation id="95" visible="true" version="1">
+<member type="way" ref="89" role="left"/>
+<member type="way" ref="94" role="right"/>
+<member type="relation" ref="598" role="regulatory_element"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="right"/>
+</relation>
+  <node id="96" lat="37.4194330822081" lon="-122.015806002121" visible="true" version="1">
+<tag k="local_y" v="280.6219"/>
+<tag k="local_x" v="17.48422"/>
+<tag k="ele" v="-6.23069"/>
+</node>
+  <node id="97" lat="37.4174709963076" lon="-122.015836584601" visible="true" version="1">
+<tag k="local_y" v="62.9092"/>
+<tag k="local_x" v="17.05027"/>
+<tag k="ele" v="-3.097078"/>
+</node>
+  <way id="98" visible="true" version="1">
+<nd ref="96"/>
+<nd ref="97"/>
+</way>
+  <node id="99" lat="37.417469716712" lon="-122.015787822185" visible="true" version="1">
+<tag k="local_y" v="62.81228"/>
+<tag k="local_x" v="21.36677"/>
+<tag k="ele" v="-3.083937"/>
+</node>
+  <node id="100" lat="37.419432460312" lon="-122.015770094609" visible="true" version="1">
+<tag k="local_y" v="280.5861"/>
+<tag k="local_x" v="20.66233"/>
+<tag k="ele" v="-6.233532"/>
+</node>
+  <way id="101" visible="true" version="1">
+<nd ref="99"/>
+<nd ref="100"/>
+</way>
+  <relation id="102" visible="true" version="1">
+<member type="way" ref="98" role="left"/>
+<member type="way" ref="101" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="103" lat="37.4194332689819" lon="-122.015852719097" visible="true" version="1">
+<tag k="local_y" v="280.5995"/>
+<tag k="local_x" v="13.35009"/>
+<tag k="ele" v="-6.296695"/>
+</node>
+  <node id="104" lat="37.4174693663292" lon="-122.015878286489" visible="true" version="1">
+<tag k="local_y" v="62.68985"/>
+<tag k="local_x" v="13.36193"/>
+<tag k="ele" v="-3.133529"/>
+</node>
+  <way id="105" visible="true" version="1">
+<nd ref="103"/>
+<nd ref="104"/>
+</way>
+  <relation id="106" visible="true" version="1">
+<member type="way" ref="98" role="left"/>
+<member type="way" ref="105" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="107" lat="37.420483005253" lon="-122.015786347259" visible="true" version="1">
+<tag k="local_y" v="397.1243"/>
+<tag k="local_x" v="18.00745"/>
+<tag k="ele" v="-7.931221"/>
+</node>
+  <node id="108" lat="37.4201913755608" lon="-122.01578825083" visible="true" version="1">
+<tag k="local_y" v="364.7675"/>
+<tag k="local_x" v="18.17677"/>
+<tag k="ele" v="-7.52871"/>
+</node>
+  <way id="109" visible="true" version="1">
+<nd ref="107"/>
+<nd ref="108"/>
+</way>
+  <node id="110" lat="37.4204788755809" lon="-122.015831897527" visible="true" version="1">
+<tag k="local_y" v="396.624"/>
+<tag k="local_x" v="13.98162"/>
+<tag k="ele" v="-7.98388"/>
+</node>
+  <node id="111" lat="37.4201915961157" lon="-122.01583568718" visible="true" version="1">
+<tag k="local_y" v="364.7482"/>
+<tag k="local_x" v="13.97899"/>
+<tag k="ele" v="-7.559159"/>
+</node>
+  <way id="112" visible="true" version="1">
+<nd ref="110"/>
+<nd ref="111"/>
+</way>
+  <relation id="113" visible="true" version="1">
+<member type="way" ref="109" role="left"/>
+<member type="way" ref="112" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="114" lat="37.420191611554" lon="-122.015757789283" visible="true" version="1">
+<tag k="local_y" v="364.8218"/>
+<tag k="local_x" v="20.87196"/>
+<tag k="ele" v="-7.527635"/>
+</node>
+  <node id="115" lat="37.420481998597" lon="-122.015754742734" visible="true" version="1">
+<tag k="local_y" v="397.0418"/>
+<tag k="local_x" v="20.80521"/>
+<tag k="ele" v="-7.905924"/>
+</node>
+  <way id="116" visible="true" version="1">
+<nd ref="114"/>
+<nd ref="115"/>
+</way>
+  <relation id="117" visible="true" version="1">
+<member type="way" ref="109" role="left"/>
+<member type="way" ref="116" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="118" lat="37.4200521231515" lon="-122.015673596013" visible="true" version="1">
+<tag k="local_y" v="349.424"/>
+<tag k="local_x" v="28.48358"/>
+<tag k="ele" v="-7.440591"/>
+</node>
+  <node id="119" lat="37.4200469999209" lon="-122.015390729889" visible="true" version="1">
+<tag k="local_y" v="349.117"/>
+<tag k="local_x" v="53.51968"/>
+<tag k="ele" v="-7.634295"/>
+</node>
+  <way id="120" visible="true" version="1">
+<nd ref="118"/>
+<nd ref="119"/>
+</way>
+  <node id="121" lat="37.4199842390074" lon="-122.015672699182" visible="true" version="1">
+<tag k="local_y" v="341.8934"/>
+<tag k="local_x" v="28.64157"/>
+<tag k="ele" v="-7.319956"/>
+</node>
+  <node id="122" lat="37.4199901314163" lon="-122.015392802861" visible="true" version="1">
+<tag k="local_y" v="342.8058"/>
+<tag k="local_x" v="53.40213"/>
+<tag k="ele" v="-7.449931"/>
+</node>
+  <way id="123" visible="true" version="1">
+<nd ref="121"/>
+<nd ref="122"/>
+</way>
+  <relation id="124" visible="true" version="1">
+<member type="way" ref="120" role="left"/>
+<member type="way" ref="123" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="125" lat="37.4201003936073" lon="-122.015387020132" visible="true" version="1">
+<tag k="local_y" v="355.0442"/>
+<tag k="local_x" v="53.78608"/>
+<tag k="ele" v="-7.710429"/>
+</node>
+  <node id="126" lat="37.4201118255756" lon="-122.015672368142" visible="true" version="1">
+<tag k="local_y" v="356.0489"/>
+<tag k="local_x" v="28.52308"/>
+<tag k="ele" v="-7.566847"/>
+</node>
+  <way id="127" visible="true" version="1">
+<nd ref="125"/>
+<nd ref="126"/>
+</way>
+  <relation id="128" visible="true" version="1">
+<member type="way" ref="120" role="left"/>
+<member type="way" ref="127" role="right"/>
+<member type="relation" ref="612" role="regulatory_element"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="129" lat="37.4200554582004" lon="-122.015962033035" visible="true" version="1">
+<tag k="local_y" v="349.5276"/>
+<tag k="local_x" v="2.956606"/>
+<tag k="ele" v="-7.391482"/>
+</node>
+  <node id="130" lat="37.420080106718" lon="-122.018321143162" visible="true" version="1">
+<tag k="local_y" v="350.086"/>
+<tag k="local_x" v="-205.8239"/>
+<tag k="ele" v="-7.977268"/>
+</node>
+  <way id="131" visible="true" version="1">
+<nd ref="129"/>
+<nd ref="130"/>
+</way>
+  <node id="132" lat="37.4201142897372" lon="-122.015964998565" visible="true" version="1">
+<tag k="local_y" v="356.0519"/>
+<tag k="local_x" v="2.626068"/>
+<tag k="ele" v="-7.556746"/>
+</node>
+  <node id="133" lat="37.4201430513804" lon="-122.01831726165" visible="true" version="1">
+<tag k="local_y" v="357.073"/>
+<tag k="local_x" v="-205.5532"/>
+<tag k="ele" v="-8.33373"/>
+</node>
+  <way id="134" visible="true" version="1">
+<nd ref="132"/>
+<nd ref="133"/>
+</way>
+  <relation id="135" visible="true" version="1">
+<member type="way" ref="131" role="left"/>
+<member type="way" ref="134" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="136" lat="37.4200229565179" lon="-122.018322458991" visible="true" version="1">
+<tag k="local_y" v="343.7443"/>
+<tag k="local_x" v="-205.8744"/>
+<tag k="ele" v="-7.876033"/>
+</node>
+  <node id="137" lat="37.4199961594021" lon="-122.015959771046" visible="true" version="1">
+<tag k="local_y" v="342.9507"/>
+<tag k="local_x" v="3.22543"/>
+<tag k="ele" v="-7.307648"/>
+</node>
+  <way id="138" visible="true" version="1">
+<nd ref="136"/>
+<nd ref="137"/>
+</way>
+  <relation id="139" visible="true" version="1">
+<member type="way" ref="131" role="left"/>
+<member type="way" ref="138" role="right"/>
+<member type="relation" ref="605" role="regulatory_element"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="140" lat="37.4199011704749" lon="-122.015762210315" visible="true" version="1">
+<tag k="local_y" v="332.5946"/>
+<tag k="local_x" v="20.81714"/>
+<tag k="ele" v="-7.070736"/>
+</node>
+  <way id="141" visible="true" version="1">
+<nd ref="100"/>
+<nd ref="140"/>
+</way>
+  <node id="142" lat="37.4195880490163" lon="-122.015733477321" visible="true" version="1">
+<tag k="local_y" v="297.8818"/>
+<tag k="local_x" v="23.72233"/>
+<tag k="ele" v="-6.513935"/>
+</node>
+  <node id="143" lat="37.4196401205643" lon="-122.015724394662" visible="true" version="1">
+<tag k="local_y" v="303.6673"/>
+<tag k="local_x" v="24.46573"/>
+<tag k="ele" v="-6.606735"/>
+</node>
+  <node id="144" lat="37.4196922503565" lon="-122.015722307118" visible="true" version="1">
+<tag k="local_y" v="309.4528"/>
+<tag k="local_x" v="24.59007"/>
+<tag k="ele" v="-6.699535"/>
+</node>
+  <node id="145" lat="37.4199008165395" lon="-122.015719570724" visible="true" version="1">
+<tag k="local_y" v="332.5948"/>
+<tag k="local_x" v="24.59064"/>
+<tag k="ele" v="-7.070736"/>
+</node>
+  <way id="146" visible="true" version="1">
+<nd ref="100"/>
+<nd ref="142"/>
+<nd ref="143"/>
+<nd ref="144"/>
+<nd ref="145"/>
+</way>
+  <relation id="147" visible="true" version="1">
+<member type="way" ref="141" role="left"/>
+<member type="way" ref="146" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="right"/>
+</relation>
+  <node id="148" lat="37.4199018158474" lon="-122.015797963691" visible="true" version="1">
+<tag k="local_y" v="332.6332"/>
+<tag k="local_x" v="17.65266"/>
+<tag k="ele" v="-7.071526"/>
+</node>
+  <way id="149" visible="true" version="1">
+<nd ref="148"/>
+<nd ref="96"/>
+</way>
+  <node id="150" lat="37.4199019843108" lon="-122.015846181141" visible="true" version="1">
+<tag k="local_y" v="332.6074"/>
+<tag k="local_x" v="13.38581"/>
+<tag k="ele" v="-7.117225"/>
+</node>
+  <way id="151" visible="true" version="1">
+<nd ref="150"/>
+<nd ref="103"/>
+</way>
+  <relation id="152" visible="true" version="1">
+<member type="way" ref="149" role="left"/>
+<member type="way" ref="151" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <relation id="153" visible="true" version="1">
+<member type="way" ref="149" role="left"/>
+<member type="way" ref="141" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="154" lat="37.417417902335" lon="-122.01583656889" visible="true" version="1">
+<tag k="local_y" v="57.01868"/>
+<tag k="local_x" v="17.11314"/>
+<tag k="ele" v="-3.046874"/>
+</node>
+  <node id="155" lat="37.4173664997305" lon="-122.015841464563" visible="true" version="1">
+<tag k="local_y" v="51.31128"/>
+<tag k="local_x" v="16.73945"/>
+<tag k="ele" v="-2.956125"/>
+</node>
+  <node id="156" lat="37.4173408124954" lon="-122.015845730136" visible="true" version="1">
+<tag k="local_y" v="48.45746"/>
+<tag k="local_x" v="16.39173"/>
+<tag k="ele" v="-2.91075"/>
+</node>
+  <node id="157" lat="37.4172893871127" lon="-122.015847947751" visible="true" version="1">
+<tag k="local_y" v="42.75"/>
+<tag k="local_x" v="16.25504"/>
+<tag k="ele" v="-2.82"/>
+</node>
+  <node id="158" lat="37.417263682122" lon="-122.015849981551" visible="true" version="1">
+<tag k="local_y" v="39.89627"/>
+<tag k="local_x" v="16.10484"/>
+<tag k="ele" v="-2.774625"/>
+</node>
+  <node id="159" lat="37.4172379891654" lon="-122.015853460851" visible="true" version="1">
+<tag k="local_y" v="37.04254"/>
+<tag k="local_x" v="15.82671"/>
+<tag k="ele" v="-2.72925"/>
+</node>
+  <node id="160" lat="37.4172123173102" lon="-122.01585957394" visible="true" version="1">
+<tag k="local_y" v="34.18872"/>
+<tag k="local_x" v="15.31548"/>
+<tag k="ele" v="-2.683875"/>
+</node>
+  <node id="161" lat="37.4171866303177" lon="-122.015863738718" visible="true" version="1">
+<tag k="local_y" v="31.33502"/>
+<tag k="local_x" v="14.97668"/>
+<tag k="ele" v="-2.6385"/>
+</node>
+  <node id="162" lat="37.4171609344382" lon="-122.015866836054" visible="true" version="1">
+<tag k="local_y" v="28.48132"/>
+<tag k="local_x" v="14.73235"/>
+<tag k="ele" v="-2.593126"/>
+</node>
+  <node id="163" lat="37.417135249756" lon="-122.015876862324" visible="true" version="1">
+<tag k="local_y" v="25.62246"/>
+<tag k="local_x" v="13.87486"/>
+<tag k="ele" v="-2.547751"/>
+</node>
+  <node id="164" lat="37.4171096588087" lon="-122.015889867197" visible="true" version="1">
+<tag k="local_y" v="22.77125"/>
+<tag k="local_x" v="12.75368"/>
+<tag k="ele" v="-2.502376"/>
+</node>
+  <way id="165" visible="true" version="1">
+<nd ref="97"/>
+<nd ref="154"/>
+<nd ref="155"/>
+<nd ref="156"/>
+<nd ref="157"/>
+<nd ref="158"/>
+<nd ref="159"/>
+<nd ref="160"/>
+<nd ref="161"/>
+<nd ref="162"/>
+<nd ref="163"/>
+<nd ref="164"/>
+</way>
+  <node id="166" lat="37.4174693662948" lon="-122.015878286489" visible="true" version="1">
+<tag k="local_y" v="62.68984"/>
+<tag k="local_x" v="13.36193"/>
+<tag k="ele" v="-3.133529"/>
+</node>
+  <node id="167" lat="37.4174175173902" lon="-122.015879844995" visible="true" version="1">
+<tag k="local_y" v="56.936"/>
+<tag k="local_x" v="13.28405"/>
+<tag k="ele" v="-3.042426"/>
+</node>
+  <node id="168" lat="37.4173661147834" lon="-122.015884740639" visible="true" version="1">
+<tag k="local_y" v="51.2286"/>
+<tag k="local_x" v="12.91036"/>
+<tag k="ele" v="-2.951676"/>
+</node>
+  <node id="169" lat="37.4173404275465" lon="-122.015889006197" visible="true" version="1">
+<tag k="local_y" v="48.37478"/>
+<tag k="local_x" v="12.56264"/>
+<tag k="ele" v="-2.906301"/>
+</node>
+  <node id="170" lat="37.4172632741604" lon="-122.015890493514" visible="true" version="1">
+<tag k="local_y" v="39.81359"/>
+<tag k="local_x" v="12.52037"/>
+<tag k="ele" v="-2.770177"/>
+</node>
+  <node id="171" lat="37.4172375639916" lon="-122.015891905431" visible="true" version="1">
+<tag k="local_y" v="36.95986"/>
+<tag k="local_x" v="12.4252"/>
+<tag k="ele" v="-2.724802"/>
+</node>
+  <node id="172" lat="37.4171861307112" lon="-122.015893242744" visible="true" version="1">
+<tag k="local_y" v="31.25234"/>
+<tag k="local_x" v="12.36642"/>
+<tag k="ele" v="-2.634052"/>
+</node>
+  <node id="173" lat="37.4171604521421" lon="-122.015898419527" visible="true" version="1">
+<tag k="local_y" v="28.39864"/>
+<tag k="local_x" v="11.93806"/>
+<tag k="ele" v="-2.588678"/>
+</node>
+  <node id="174" lat="37.4171348339442" lon="-122.015912580961" visible="true" version="1">
+<tag k="local_y" v="25.54334"/>
+<tag k="local_x" v="10.71456"/>
+<tag k="ele" v="-2.543303"/>
+</node>
+  <node id="175" lat="37.4171096191809" lon="-122.015929771646" visible="true" version="1">
+<tag k="local_y" v="22.73"/>
+<tag k="local_x" v="9.222534"/>
+<tag k="ele" v="-2.37"/>
+</node>
+  <way id="176" visible="true" version="1">
+<nd ref="166"/>
+<nd ref="167"/>
+<nd ref="168"/>
+<nd ref="169"/>
+<nd ref="170"/>
+<nd ref="171"/>
+<nd ref="172"/>
+<nd ref="173"/>
+<nd ref="174"/>
+<nd ref="175"/>
+</way>
+  <relation id="177" visible="true" version="1">
+<member type="way" ref="165" role="left"/>
+<member type="way" ref="176" role="right"/>
+<member type="relation" ref="535" role="regulatory_element"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="178" lat="37.4174425965808" lon="-122.015835178747" visible="true" version="1">
+<tag k="local_y" v="59.75968"/>
+<tag k="local_x" v="17.20756"/>
+<tag k="ele" v="-3.043801"/>
+</node>
+  <node id="179" lat="37.4173654089162" lon="-122.015803804597" visible="true" version="1">
+<tag k="local_y" v="51.22504"/>
+<tag k="local_x" v="20.07327"/>
+<tag k="ele" v="-2.898983"/>
+</node>
+  <node id="180" lat="37.4173397332467" lon="-122.015799787122" visible="true" version="1">
+<tag k="local_y" v="48.38016"/>
+<tag k="local_x" v="20.45852"/>
+<tag k="ele" v="-2.85071"/>
+</node>
+  <node id="181" lat="37.4171089752596" lon="-122.015802246805" visible="true" version="1">
+<tag k="local_y" v="22.77635"/>
+<tag k="local_x" v="20.50809"/>
+<tag k="ele" v="-2.416257"/>
+</node>
+  <way id="182" visible="true" version="1">
+<nd ref="97"/>
+<nd ref="178"/>
+<nd ref="179"/>
+<nd ref="180"/>
+<nd ref="181"/>
+</way>
+  <node id="183" lat="37.417110198122" lon="-122.015744042268" visible="true" version="1">
+<tag k="local_y" v="22.96578"/>
+<tag k="local_x" v="25.65726"/>
+<tag k="ele" v="-2.453082"/>
+</node>
+  <node id="184" lat="37.4172129263661" lon="-122.01575572352" visible="true" version="1">
+<tag k="local_y" v="34.35222"/>
+<tag k="local_x" v="24.5046"/>
+<tag k="ele" v="-2.638815"/>
+</node>
+  <node id="185" lat="37.4172642374103" lon="-122.015755189365" visible="true" version="1">
+<tag k="local_y" v="40.04544"/>
+<tag k="local_x" v="24.49244"/>
+<tag k="ele" v="-2.731681"/>
+</node>
+  <node id="186" lat="37.4172899104979" lon="-122.015757029947" visible="true" version="1">
+<tag k="local_y" v="42.89205"/>
+<tag k="local_x" v="24.29984"/>
+<tag k="ele" v="-2.778115"/>
+</node>
+  <node id="187" lat="37.4173412415932" lon="-122.015758904102" visible="true" version="1">
+<tag k="local_y" v="48.58527"/>
+<tag k="local_x" v="24.07454"/>
+<tag k="ele" v="-2.870981"/>
+</node>
+  <node id="188" lat="37.4173669235471" lon="-122.015761809607" visible="true" version="1">
+<tag k="local_y" v="51.43188"/>
+<tag k="local_x" v="23.78769"/>
+<tag k="ele" v="-2.917415"/>
+</node>
+  <node id="189" lat="37.417392626653" lon="-122.015767259722" visible="true" version="1">
+<tag k="local_y" v="54.27848"/>
+<tag k="local_x" v="23.27564"/>
+<tag k="ele" v="-2.963848"/>
+</node>
+  <way id="190" visible="true" version="1">
+<nd ref="183"/>
+<nd ref="184"/>
+<nd ref="185"/>
+<nd ref="186"/>
+<nd ref="187"/>
+<nd ref="188"/>
+<nd ref="189"/>
+<nd ref="99"/>
+</way>
+  <relation id="191" visible="true" version="1">
+<member type="way" ref="182" role="left"/>
+<member type="way" ref="190" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="192" lat="37.4172895694508" lon="-122.015839688046" visible="true" version="1">
+<tag k="local_y" v="42.77786"/>
+<tag k="local_x" v="16.98574"/>
+<tag k="ele" v="-2.754681"/>
+</node>
+  <node id="193" lat="37.417109216152" lon="-122.015844163368" visible="true" version="1">
+<tag k="local_y" v="22.76435"/>
+<tag k="local_x" v="16.79857"/>
+<tag k="ele" v="-2.414286"/>
+</node>
+  <way id="194" visible="true" version="1">
+<nd ref="97"/>
+<nd ref="192"/>
+<nd ref="193"/>
+</way>
+  <relation id="195" visible="true" version="1">
+<member type="way" ref="182" role="left"/>
+<member type="way" ref="194" role="right"/>
+<member type="relation" ref="535" role="regulatory_element"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="196" lat="37.4169217118431" lon="-122.01596975116" visible="true" version="1">
+<tag k="local_y" v="1.845621"/>
+<tag k="local_x" v="5.902277"/>
+<tag k="ele" v="-1.930353"/>
+</node>
+  <node id="197" lat="37.4169265486518" lon="-122.015924631537" visible="true" version="1">
+<tag k="local_y" v="2.423913"/>
+<tag k="local_x" v="9.889372"/>
+<tag k="ele" v="-1.957414"/>
+</node>
+  <node id="198" lat="37.4169340789692" lon="-122.0158942112" visible="true" version="1">
+<tag k="local_y" v="3.287463"/>
+<tag k="local_x" v="12.57259"/>
+<tag k="ele" v="-1.974988"/>
+</node>
+  <node id="199" lat="37.4169492834703" lon="-122.015863428119" visible="true" version="1">
+<tag k="local_y" v="5.002765"/>
+<tag k="local_x" v="15.27902"/>
+<tag k="ele" v="-2.021369"/>
+</node>
+  <node id="200" lat="37.4169696484888" lon="-122.015837740494" visible="true" version="1">
+<tag k="local_y" v="7.285896"/>
+<tag k="local_x" v="17.52856"/>
+<tag k="ele" v="-2.050176"/>
+</node>
+  <node id="201" lat="37.4169994877027" lon="-122.015820018615" visible="true" version="1">
+<tag k="local_y" v="10.61279"/>
+<tag k="local_x" v="19.06224"/>
+<tag k="ele" v="-2.159062"/>
+</node>
+  <node id="202" lat="37.4170277933793" lon="-122.015806881606" visible="true" version="1">
+<tag k="local_y" v="13.76531"/>
+<tag k="local_x" v="20.19197"/>
+<tag k="ele" v="-2.250373"/>
+</node>
+  <node id="203" lat="37.4170591162796" lon="-122.015802838396" visible="true" version="1">
+<tag k="local_y" v="17.24417"/>
+<tag k="local_x" v="20.51348"/>
+<tag k="ele" v="-2.301645"/>
+</node>
+  <way id="204" visible="true" version="1">
+<nd ref="196"/>
+<nd ref="197"/>
+<nd ref="198"/>
+<nd ref="199"/>
+<nd ref="200"/>
+<nd ref="201"/>
+<nd ref="202"/>
+<nd ref="203"/>
+<nd ref="181"/>
+</way>
+  <node id="205" lat="37.4168929723972" lon="-122.015969915976" visible="true" version="1">
+<tag k="local_y" v="-1.343041"/>
+<tag k="local_x" v="5.920969"/>
+<tag k="ele" v="-1.928555"/>
+</node>
+  <node id="206" lat="37.4168956959516" lon="-122.015893674981" visible="true" version="1">
+<tag k="local_y" v="-0.9704609"/>
+<tag k="local_x" v="12.66448"/>
+<tag k="ele" v="-1.949349"/>
+</node>
+  <node id="207" lat="37.4169070095132" lon="-122.015841808886" visible="true" version="1">
+<tag k="local_y" v="0.3326321"/>
+<tag k="local_x" v="17.24109"/>
+<tag k="ele" v="-1.983932"/>
+</node>
+  <node id="208" lat="37.4169347760826" lon="-122.015799073937" visible="true" version="1">
+<tag k="local_y" v="3.452679"/>
+<tag k="local_x" v="20.9906"/>
+<tag k="ele" v="-2.037924"/>
+</node>
+  <node id="209" lat="37.4169651645431" lon="-122.015775009428" visible="true" version="1">
+<tag k="local_y" v="6.846367"/>
+<tag k="local_x" v="23.08491"/>
+<tag k="ele" v="-2.111325"/>
+</node>
+  <node id="210" lat="37.4169932389262" lon="-122.015760178869" visible="true" version="1">
+<tag k="local_y" v="9.974791"/>
+<tag k="local_x" v="24.36477"/>
+<tag k="ele" v="-2.204135"/>
+</node>
+  <node id="211" lat="37.4170245938754" lon="-122.015751131158" visible="true" version="1">
+<tag k="local_y" v="13.46184"/>
+<tag k="local_x" v="25.1291"/>
+<tag k="ele" v="-2.257818"/>
+</node>
+  <node id="212" lat="37.417060504061" lon="-122.015746427886" visible="true" version="1">
+<tag k="local_y" v="17.45025"/>
+<tag k="local_x" v="25.50371"/>
+<tag k="ele" v="-2.316354"/>
+</node>
+  <way id="213" visible="true" version="1">
+<nd ref="205"/>
+<nd ref="206"/>
+<nd ref="207"/>
+<nd ref="208"/>
+<nd ref="209"/>
+<nd ref="210"/>
+<nd ref="211"/>
+<nd ref="212"/>
+<nd ref="183"/>
+</way>
+  <relation id="214" visible="true" version="1">
+<member type="way" ref="204" role="left"/>
+<member type="way" ref="213" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="left"/>
+</relation>
+  <node id="215" lat="37.4168833488025" lon="-122.015685021955" visible="true" version="1">
+<tag k="local_y" v="-2.147586"/>
+<tag k="local_x" v="31.14278"/>
+<tag k="ele" v="-1.91343"/>
+</node>
+  <way id="216" visible="true" version="1">
+<nd ref="205"/>
+<nd ref="215"/>
+</way>
+  <node id="217" lat="37.4168642887879" lon="-122.015972046653" visible="true" version="1">
+<tag k="local_y" v="-4.527323"/>
+<tag k="local_x" v="5.765635"/>
+<tag k="ele" v="-1.942355"/>
+</node>
+  <way id="218" visible="true" version="1">
+<nd ref="217"/>
+<nd ref="45"/>
+</way>
+  <relation id="219" visible="true" version="1">
+<member type="way" ref="216" role="left"/>
+<member type="way" ref="218" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="220" lat="37.4168328574174" lon="-122.015971545752" visible="true" version="1">
+<tag k="local_y" v="-8.014027"/>
+<tag k="local_x" v="5.846354"/>
+<tag k="ele" v="-1.96006"/>
+</node>
+  <way id="221" visible="true" version="1">
+<nd ref="220"/>
+<nd ref="38"/>
+</way>
+  <relation id="222" visible="true" version="1">
+<member type="way" ref="218" role="left"/>
+<member type="way" ref="221" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="223" lat="37.4168022841982" lon="-122.015973958205" visible="true" version="1">
+<tag k="local_y" v="-11.40821"/>
+<tag k="local_x" v="5.668272"/>
+<tag k="ele" v="-1.957637"/>
+</node>
+  <node id="224" lat="37.4167950148696" lon="-122.015685915512" visible="true" version="1">
+<tag k="local_y" v="-11.94866"/>
+<tag k="local_x" v="31.16601"/>
+<tag k="ele" v="-1.883088"/>
+</node>
+  <way id="225" visible="true" version="1">
+<nd ref="223"/>
+<nd ref="224"/>
+</way>
+  <relation id="226" visible="true" version="1">
+<member type="way" ref="221" role="left"/>
+<member type="way" ref="225" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="227" lat="37.4169030964548" lon="-122.015680876083" visible="true" version="1">
+<tag k="local_y" v="0.04715538"/>
+<tag k="local_x" v="31.48678"/>
+<tag k="ele" v="-1.924414"/>
+</node>
+  <node id="228" lat="37.4168951778623" lon="-122.015725887642" visible="true" version="1">
+<tag k="local_y" v="-0.8729572"/>
+<tag k="local_x" v="27.51282"/>
+<tag k="ele" v="-1.931138"/>
+</node>
+  <node id="229" lat="37.4168796559793" lon="-122.015763951619" visible="true" version="1">
+<tag k="local_y" v="-2.6302"/>
+<tag k="local_x" v="24.16246"/>
+<tag k="ele" v="-1.924572"/>
+</node>
+  <node id="230" lat="37.4168568770209" lon="-122.015795020066" visible="true" version="1">
+<tag k="local_y" v="-5.18612"/>
+<tag k="local_x" v="21.43955"/>
+<tag k="ele" v="-1.904932"/>
+</node>
+  <node id="231" lat="37.4168268400856" lon="-122.015819092993" visible="true" version="1">
+<tag k="local_y" v="-8.540815"/>
+<tag k="local_x" v="19.34409"/>
+<tag k="ele" v="-1.872215"/>
+</node>
+  <node id="232" lat="37.4167895182471" lon="-122.015832872144" visible="true" version="1">
+<tag k="local_y" v="-12.69423"/>
+<tag k="local_x" v="18.16797"/>
+<tag k="ele" v="-1.826423"/>
+</node>
+  <node id="233" lat="37.4167449477304" lon="-122.015840755242" visible="true" version="1">
+<tag k="local_y" v="-17.6464"/>
+<tag k="local_x" v="17.522"/>
+<tag k="ele" v="-1.767557"/>
+</node>
+  <node id="234" lat="37.4166902313873" lon="-122.01584749909" visible="true" version="1">
+<tag k="local_y" v="-23.72316"/>
+<tag k="local_x" v="16.98858"/>
+<tag k="ele" v="-1.691187"/>
+</node>
+  <way id="235" visible="true" version="1">
+<nd ref="227"/>
+<nd ref="228"/>
+<nd ref="229"/>
+<nd ref="230"/>
+<nd ref="231"/>
+<nd ref="232"/>
+<nd ref="233"/>
+<nd ref="234"/>
+</way>
+  <node id="236" lat="37.4169365258833" lon="-122.015677854618" visible="true" version="1">
+<tag k="local_y" v="3.758788"/>
+<tag k="local_x" v="31.71543"/>
+<tag k="ele" v="-1.989966"/>
+</node>
+  <node id="237" lat="37.4169368224706" lon="-122.015735562596" visible="true" version="1">
+<tag k="local_y" v="3.738383"/>
+<tag k="local_x" v="26.60843"/>
+<tag k="ele" v="-1.997747"/>
+</node>
+  <node id="238" lat="37.4169316225231" lon="-122.015773674565" visible="true" version="1">
+<tag k="local_y" v="3.126267"/>
+<tag k="local_x" v="23.24188"/>
+<tag k="ele" v="-1.989741"/>
+</node>
+  <node id="239" lat="37.416916020828" lon="-122.015802593901" visible="true" version="1">
+<tag k="local_y" v="1.368618"/>
+<tag k="local_x" v="20.70084"/>
+<tag k="ele" v="-1.979535"/>
+</node>
+  <node id="240" lat="37.4168965443152" lon="-122.01582894145" visible="true" version="1">
+<tag k="local_y" v="-0.8165483"/>
+<tag k="local_x" v="18.39186"/>
+<tag k="ele" v="-1.946716"/>
+</node>
+  <node id="241" lat="37.4168714740851" lon="-122.015849832061" visible="true" version="1">
+<tag k="local_y" v="-3.617271"/>
+<tag k="local_x" v="16.57225"/>
+<tag k="ele" v="-1.924103"/>
+</node>
+  <node id="242" lat="37.4168331165714" lon="-122.015866650882" visible="true" version="1">
+<tag k="local_y" v="-7.888395"/>
+<tag k="local_x" v="15.12835"/>
+<tag k="ele" v="-1.866471"/>
+</node>
+  <node id="243" lat="37.4167973782021" lon="-122.015873751658" visible="true" version="1">
+<tag k="local_y" v="-11.85996"/>
+<tag k="local_x" v="14.54138"/>
+<tag k="ele" v="-1.831452"/>
+</node>
+  <node id="244" lat="37.4167638688432" lon="-122.015877103593" visible="true" version="1">
+<tag k="local_y" v="-15.58077"/>
+<tag k="local_x" v="14.28356"/>
+<tag k="ele" v="-1.792298"/>
+</node>
+  <node id="245" lat="37.4166942787287" lon="-122.015884763054" visible="true" version="1">
+<tag k="local_y" v="-23.30854"/>
+<tag k="local_x" v="13.68635"/>
+<tag k="ele" v="-1.702222"/>
+</node>
+  <way id="246" visible="true" version="1">
+<nd ref="236"/>
+<nd ref="237"/>
+<nd ref="238"/>
+<nd ref="239"/>
+<nd ref="240"/>
+<nd ref="241"/>
+<nd ref="242"/>
+<nd ref="243"/>
+<nd ref="244"/>
+<nd ref="245"/>
+</way>
+  <relation id="247" visible="true" version="1">
+<member type="way" ref="235" role="left"/>
+<member type="way" ref="246" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="left"/>
+</relation>
+  <node id="248" lat="37.4169952367062" lon="-122.015668393778" visible="true" version="1">
+<tag k="local_y" v="10.28122"/>
+<tag k="local_x" v="32.48463"/>
+<tag k="ele" v="-2.14821"/>
+</node>
+  <node id="249" lat="37.4169983800536" lon="-122.015817094641" visible="true" version="1">
+<tag k="local_y" v="10.4926"/>
+<tag k="local_x" v="19.32227"/>
+<tag k="ele" v="-2.162539"/>
+</node>
+  <way id="250" visible="true" version="1">
+<nd ref="248"/>
+<nd ref="249"/>
+<nd ref="23"/>
+</way>
+  <node id="251" lat="37.4170318212562" lon="-122.015814943906" visible="true" version="1">
+<tag k="local_y" v="14.20474"/>
+<tag k="local_x" v="19.47386"/>
+<tag k="ele" v="-2.271678"/>
+</node>
+  <way id="252" visible="true" version="1">
+<nd ref="58"/>
+<nd ref="251"/>
+<nd ref="26"/>
+</way>
+  <relation id="253" visible="true" version="1">
+<member type="way" ref="250" role="left"/>
+<member type="way" ref="252" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="254" lat="37.416969424241" lon="-122.015672895577" visible="true" version="1">
+<tag k="local_y" v="7.413291"/>
+<tag k="local_x" v="32.11616"/>
+<tag k="ele" v="-2.078611"/>
+</node>
+  <node id="255" lat="37.4169701848137" lon="-122.015819996962" visible="true" version="1">
+<tag k="local_y" v="7.361788"/>
+<tag k="local_x" v="19.09809"/>
+<tag k="ele" v="-2.082713"/>
+</node>
+  <node id="256" lat="37.4169694520658" lon="-122.015966083101" visible="true" version="1">
+<tag k="local_y" v="7.145566"/>
+<tag k="local_x" v="6.171591"/>
+<tag k="ele" v="-2.083868"/>
+</node>
+  <way id="257" visible="true" version="1">
+<nd ref="254"/>
+<nd ref="255"/>
+<nd ref="256"/>
+</way>
+  <relation id="258" visible="true" version="1">
+<member type="way" ref="257" role="left"/>
+<member type="way" ref="250" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="259" lat="37.4169387490342" lon="-122.015822612644" visible="true" version="1">
+<tag k="local_y" v="3.871717"/>
+<tag k="local_x" v="18.90303"/>
+<tag k="ele" v="-1.992417"/>
+</node>
+  <node id="260" lat="37.4169408163169" lon="-122.015966470466" visible="true" version="1">
+<tag k="local_y" v="3.968204"/>
+<tag k="local_x" v="6.170469"/>
+<tag k="ele" v="-1.990921"/>
+</node>
+  <way id="261" visible="true" version="1">
+<nd ref="236"/>
+<nd ref="259"/>
+<nd ref="260"/>
+</way>
+  <relation id="262" visible="true" version="1">
+<member type="way" ref="261" role="left"/>
+<member type="way" ref="257" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <way id="263" visible="true" version="1">
+<nd ref="85"/>
+<nd ref="181"/>
+</way>
+  <node id="264" lat="37.4169196794394" lon="-122.015754170278" visible="true" version="1">
+<tag k="local_y" v="1.819254"/>
+<tag k="local_x" v="24.98167"/>
+<tag k="ele" v="-2.131493"/>
+</node>
+  <way id="265" visible="true" version="1">
+<nd ref="88"/>
+<nd ref="264"/>
+<nd ref="183"/>
+</way>
+  <relation id="266" visible="true" version="1">
+<member type="way" ref="263" role="left"/>
+<member type="way" ref="265" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="267" lat="37.4167138895415" lon="-122.015771507513" visible="true" version="1">
+<tag k="local_y" v="-21.0282"/>
+<tag k="local_x" v="23.6858"/>
+<tag k="ele" v="-1.765758"/>
+</node>
+  <node id="268" lat="37.4167433357249" lon="-122.01576817737" visible="true" version="1">
+<tag k="local_y" v="-17.75821"/>
+<tag k="local_x" v="23.94639"/>
+<tag k="ele" v="-1.797132"/>
+</node>
+  <node id="269" lat="37.4167772156196" lon="-122.015762111778" visible="true" version="1">
+<tag k="local_y" v="-13.99379"/>
+<tag k="local_x" v="24.44391"/>
+<tag k="ele" v="-1.823613"/>
+</node>
+  <node id="270" lat="37.4168039859481" lon="-122.01574445739" visible="true" version="1">
+<tag k="local_y" v="-11.00743"/>
+<tag k="local_x" v="25.97517"/>
+<tag k="ele" v="-1.861896"/>
+</node>
+  <node id="271" lat="37.4168194102691" lon="-122.015718366573" visible="true" version="1">
+<tag k="local_y" v="-9.272076"/>
+<tag k="local_x" v="28.26612"/>
+<tag k="ele" v="-1.880607"/>
+</node>
+  <way id="272" visible="true" version="1">
+<nd ref="88"/>
+<nd ref="267"/>
+<nd ref="268"/>
+<nd ref="269"/>
+<nd ref="270"/>
+<nd ref="271"/>
+<nd ref="38"/>
+</way>
+  <node id="273" lat="37.4167106747069" lon="-122.015727303424" visible="true" version="1">
+<tag k="local_y" v="-21.34404"/>
+<tag k="local_x" v="27.60122"/>
+<tag k="ele" v="-1.827774"/>
+</node>
+  <node id="274" lat="37.416737650782" lon="-122.015726728576" visible="true" version="1">
+<tag k="local_y" v="-18.35064"/>
+<tag k="local_x" v="27.62084"/>
+<tag k="ele" v="-1.844704"/>
+</node>
+  <node id="275" lat="37.4167622179446" lon="-122.015722455697" visible="true" version="1">
+<tag k="local_y" v="-15.62108"/>
+<tag k="local_x" v="27.9705"/>
+<tag k="ele" v="-1.858602"/>
+</node>
+  <node id="276" lat="37.4167805630024" lon="-122.015707676908" visible="true" version="1">
+<tag k="local_y" v="-13.57213"/>
+<tag k="local_x" v="29.25705"/>
+<tag k="ele" v="-1.877301"/>
+</node>
+  <way id="277" visible="true" version="1">
+<nd ref="93"/>
+<nd ref="273"/>
+<nd ref="274"/>
+<nd ref="275"/>
+<nd ref="276"/>
+<nd ref="224"/>
+</way>
+  <relation id="278" visible="true" version="1">
+<member type="way" ref="272" role="left"/>
+<member type="way" ref="277" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="right"/>
+</relation>
+  <node id="279" lat="37.4167387876812" lon="-122.015819823271" visible="true" version="1">
+<tag k="local_y" v="-18.3105"/>
+<tag k="local_x" v="19.38143"/>
+<tag k="ele" v="-1.762032"/>
+</node>
+  <node id="280" lat="37.416784604594" lon="-122.015820057717" visible="true" version="1">
+<tag k="local_y" v="-13.22754"/>
+<tag k="local_x" v="19.30763"/>
+<tag k="ele" v="-1.819908"/>
+</node>
+  <node id="281" lat="37.4168245380742" lon="-122.015820566571" visible="true" version="1">
+<tag k="local_y" v="-8.797574"/>
+<tag k="local_x" v="19.21635"/>
+<tag k="ele" v="-1.86959"/>
+</node>
+  <node id="282" lat="37.4168586367221" lon="-122.015827191962" visible="true" version="1">
+<tag k="local_y" v="-5.020606"/>
+<tag k="local_x" v="18.59057"/>
+<tag k="ele" v="-1.911076"/>
+</node>
+  <node id="283" lat="37.4168869326828" lon="-122.015843828684" visible="true" version="1">
+<tag k="local_y" v="-1.896666"/>
+<tag k="local_x" v="17.0856"/>
+<tag k="ele" v="-1.944368"/>
+</node>
+  <node id="284" lat="37.4169093890474" lon="-122.015865932799" visible="true" version="1">
+<tag k="local_y" v="0.5743484"/>
+<tag k="local_x" v="15.10357"/>
+<tag k="ele" v="-1.969464"/>
+</node>
+  <node id="285" lat="37.416926004872" lon="-122.015893504353" visible="true" version="1">
+<tag k="local_y" v="2.392332"/>
+<tag k="local_x" v="12.64449"/>
+<tag k="ele" v="-1.986366"/>
+</node>
+  <node id="286" lat="37.4169367804794" lon="-122.015926543327" visible="true" version="1">
+<tag k="local_y" v="3.557322"/>
+<tag k="local_x" v="9.708347"/>
+<tag k="ele" v="-1.995073"/>
+</node>
+  <way id="287" visible="true" version="1">
+<nd ref="85"/>
+<nd ref="279"/>
+<nd ref="280"/>
+<nd ref="281"/>
+<nd ref="282"/>
+<nd ref="283"/>
+<nd ref="284"/>
+<nd ref="285"/>
+<nd ref="286"/>
+<nd ref="260"/>
+</way>
+  <node id="288" lat="37.4167223990119" lon="-122.015770285685" visible="true" version="1">
+<tag k="local_y" v="-20.08299"/>
+<tag k="local_x" v="23.78407"/>
+<tag k="ele" v="-1.777282"/>
+</node>
+  <node id="289" lat="37.4167593742984" lon="-122.015768256228" visible="true" version="1">
+<tag k="local_y" v="-15.97888"/>
+<tag k="local_x" v="23.92084"/>
+<tag k="ele" v="-1.824597"/>
+</node>
+  <node id="290" lat="37.4167961077207" lon="-122.015768905739" visible="true" version="1">
+<tag k="local_y" v="-11.90407"/>
+<tag k="local_x" v="23.82082"/>
+<tag k="ele" v="-1.867987"/>
+</node>
+  <node id="291" lat="37.4168345203828" lon="-122.015772679215" visible="true" version="1">
+<tag k="local_y" v="-7.645849"/>
+<tag k="local_x" v="23.44241"/>
+<tag k="ele" v="-1.907455"/>
+</node>
+  <node id="292" lat="37.4168775042904" lon="-122.01578916656" visible="true" version="1">
+<tag k="local_y" v="-2.892212"/>
+<tag k="local_x" v="21.93365"/>
+<tag k="ele" v="-1.974618"/>
+</node>
+  <node id="293" lat="37.4169187049998" lon="-122.015816850438" visible="true" version="1">
+<tag k="local_y" v="1.653246"/>
+<tag k="local_x" v="19.43615"/>
+<tag k="ele" v="-2.026087"/>
+</node>
+  <node id="294" lat="37.4169479905541" lon="-122.015855393091" visible="true" version="1">
+<tag k="local_y" v="4.866743"/>
+<tag k="local_x" v="15.99154"/>
+<tag k="ele" v="-2.061861"/>
+</node>
+  <node id="295" lat="37.4169653618972" lon="-122.015904794533" visible="true" version="1">
+<tag k="local_y" v="6.748385"/>
+<tag k="local_x" v="11.59983"/>
+<tag k="ele" v="-2.081941"/>
+</node>
+  <way id="296" visible="true" version="1">
+<nd ref="88"/>
+<nd ref="288"/>
+<nd ref="289"/>
+<nd ref="290"/>
+<nd ref="291"/>
+<nd ref="292"/>
+<nd ref="293"/>
+<nd ref="294"/>
+<nd ref="295"/>
+<nd ref="256"/>
+</way>
+  <relation id="297" visible="true" version="1">
+<member type="way" ref="287" role="left"/>
+<member type="way" ref="296" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="left"/>
+</relation>
+  <node id="298" lat="37.4170605529481" lon="-122.015800850281" visible="true" version="1">
+<tag k="local_y" v="17.4054"/>
+<tag k="local_x" v="20.68775"/>
+<tag k="ele" v="-2.291534"/>
+</node>
+  <node id="299" lat="37.4170132090007" lon="-122.015800072409" visible="true" version="1">
+<tag k="local_y" v="12.15353"/>
+<tag k="local_x" v="20.81141"/>
+<tag k="ele" v="-2.188702"/>
+</node>
+  <node id="300" lat="37.4169666422103" lon="-122.015795430971" visible="true" version="1">
+<tag k="local_y" v="6.991444"/>
+<tag k="local_x" v="21.27607"/>
+<tag k="ele" v="-2.101562"/>
+</node>
+  <node id="301" lat="37.4169339377473" lon="-122.015781387718" visible="true" version="1">
+<tag k="local_y" v="3.376006"/>
+<tag k="local_x" v="22.55665"/>
+<tag k="ele" v="-2.030116"/>
+</node>
+  <node id="302" lat="37.41690962825" lon="-122.015755534112" visible="true" version="1">
+<tag k="local_y" v="0.7028608"/>
+<tag k="local_x" v="24.87262"/>
+<tag k="ele" v="-1.974364"/>
+</node>
+  <node id="303" lat="37.4168940353897" lon="-122.015722744902" visible="true" version="1">
+<tag k="local_y" v="-0.9968061"/>
+<tag k="local_x" v="27.79224"/>
+<tag k="ele" v="-1.934305"/>
+</node>
+  <way id="304" visible="true" version="1">
+<nd ref="181"/>
+<nd ref="298"/>
+<nd ref="299"/>
+<nd ref="300"/>
+<nd ref="301"/>
+<nd ref="302"/>
+<nd ref="303"/>
+<nd ref="215"/>
+</way>
+  <node id="305" lat="37.4170765993638" lon="-122.015847607824" visible="true" version="1">
+<tag k="local_y" v="19.14249"/>
+<tag k="local_x" v="16.53154"/>
+<tag k="ele" v="-2.352586"/>
+</node>
+  <node id="306" lat="37.4170465005324" lon="-122.015850519271" visible="true" version="1">
+<tag k="local_y" v="15.80047"/>
+<tag k="local_x" v="16.30876"/>
+<tag k="ele" v="-2.295005"/>
+</node>
+  <node id="307" lat="37.4169927168134" lon="-122.015848652279" visible="true" version="1">
+<tag k="local_y" v="9.835142"/>
+<tag k="local_x" v="16.53625"/>
+<tag k="ele" v="-2.191089"/>
+</node>
+  <node id="308" lat="37.4169474855996" lon="-122.015836532173" visible="true" version="1">
+<tag k="local_y" v="4.828142"/>
+<tag k="local_x" v="17.66116"/>
+<tag k="ele" v="-2.102169"/>
+</node>
+  <node id="309" lat="37.4169108068838" lon="-122.015814158947" visible="true" version="1">
+<tag k="local_y" v="0.7794724"/>
+<tag k="local_x" v="19.68347"/>
+<tag k="ele" v="-2.028244"/>
+</node>
+  <node id="310" lat="37.4168826809485" lon="-122.015781532605" visible="true" version="1">
+<tag k="local_y" v="-2.310834"/>
+<tag k="local_x" v="22.60319"/>
+<tag k="ele" v="-1.969315"/>
+</node>
+  <node id="311" lat="37.4168631067494" lon="-122.01573865316" visible="true" version="1">
+<tag k="local_y" v="-4.442892"/>
+<tag k="local_x" v="26.42032"/>
+<tag k="ele" v="-1.925381"/>
+</node>
+  <way id="312" visible="true" version="1">
+<nd ref="193"/>
+<nd ref="305"/>
+<nd ref="306"/>
+<nd ref="307"/>
+<nd ref="308"/>
+<nd ref="309"/>
+<nd ref="310"/>
+<nd ref="311"/>
+<nd ref="45"/>
+</way>
+  <relation id="313" visible="true" version="1">
+<member type="way" ref="304" role="left"/>
+<member type="way" ref="312" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="left"/>
+</relation>
+  <node id="314" lat="37.4170655308814" lon="-122.015889005305" visible="true" version="1">
+<tag k="local_y" v="17.87626"/>
+<tag k="local_x" v="12.88105"/>
+<tag k="ele" v="-2.337203"/>
+</node>
+  <node id="315" lat="37.417032456095" lon="-122.015902208555" visible="true" version="1">
+<tag k="local_y" v="14.19457"/>
+<tag k="local_x" v="11.75097"/>
+<tag k="ele" v="-2.251339"/>
+</node>
+  <node id="316" lat="37.4170100490787" lon="-122.015927463954" visible="true" version="1">
+<tag k="local_y" v="11.68529"/>
+<tag k="local_x" v="9.54204"/>
+<tag k="ele" v="-2.196907"/>
+</node>
+  <way id="317" visible="true" version="1">
+<nd ref="164"/>
+<nd ref="314"/>
+<nd ref="315"/>
+<nd ref="316"/>
+<nd ref="23"/>
+</way>
+  <node id="318" lat="37.4170833289424" lon="-122.015938413674" visible="true" version="1">
+<tag k="local_y" v="19.80524"/>
+<tag k="local_x" v="8.488234"/>
+<tag k="ele" v="-2.427708"/>
+</node>
+  <node id="319" lat="37.4170621204495" lon="-122.01594529551" visible="true" version="1">
+<tag k="local_y" v="17.4459"/>
+<tag k="local_x" v="7.90381"/>
+<tag k="ele" v="-2.370587"/>
+</node>
+  <node id="320" lat="37.4170457771127" lon="-122.015954554923" visible="true" version="1">
+<tag k="local_y" v="15.62413"/>
+<tag k="local_x" v="7.103357"/>
+<tag k="ele" v="-2.326685"/>
+</node>
+  <way id="321" visible="true" version="1">
+<nd ref="175"/>
+<nd ref="318"/>
+<nd ref="319"/>
+<nd ref="320"/>
+<nd ref="26"/>
+</way>
+  <relation id="322" visible="true" version="1">
+<member type="way" ref="317" role="left"/>
+<member type="way" ref="321" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="right"/>
+</relation>
+  <node id="323" lat="37.4170484329113" lon="-122.015806755178" visible="true" version="1">
+<tag k="local_y" v="16.05529"/>
+<tag k="local_x" v="20.17926"/>
+<tag k="ele" v="-2.311775"/>
+</node>
+  <node id="324" lat="37.4169887320297" lon="-122.015813466696" visible="true" version="1">
+<tag k="local_y" v="9.425549"/>
+<tag k="local_x" v="19.65448"/>
+<tag k="ele" v="-2.208389"/>
+</node>
+  <node id="325" lat="37.4169290304229" lon="-122.015820178212" visible="true" version="1">
+<tag k="local_y" v="2.79573"/>
+<tag k="local_x" v="19.12971"/>
+<tag k="ele" v="-2.105002"/>
+</node>
+  <node id="326" lat="37.416869328847" lon="-122.015826889694" visible="true" version="1">
+<tag k="local_y" v="-3.834084"/>
+<tag k="local_x" v="18.60494"/>
+<tag k="ele" v="-2.001615"/>
+</node>
+  <node id="327" lat="37.4168096272291" lon="-122.015833601165" visible="true" version="1">
+<tag k="local_y" v="-10.4639"/>
+<tag k="local_x" v="18.08017"/>
+<tag k="ele" v="-1.898228"/>
+</node>
+  <node id="328" lat="37.4167499263602" lon="-122.015840312636" visible="true" version="1">
+<tag k="local_y" v="-17.09364"/>
+<tag k="local_x" v="17.5554"/>
+<tag k="ele" v="-1.794842"/>
+</node>
+  <way id="329" visible="true" version="1">
+<nd ref="181"/>
+<nd ref="323"/>
+<nd ref="324"/>
+<nd ref="325"/>
+<nd ref="326"/>
+<nd ref="327"/>
+<nd ref="328"/>
+<nd ref="234"/>
+</way>
+  <node id="330" lat="37.4168718257411" lon="-122.015866611216" visible="true" version="1">
+<tag k="local_y" v="-3.593754"/>
+<tag k="local_x" v="15.08704"/>
+<tag k="ele" v="-2.007097"/>
+</node>
+  <way id="331" visible="true" version="1">
+<nd ref="193"/>
+<nd ref="330"/>
+<nd ref="245"/>
+</way>
+  <relation id="332" visible="true" version="1">
+<member type="way" ref="329" role="left"/>
+<member type="way" ref="331" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="333" lat="37.4168224171654" lon="-122.015934317528" visible="true" version="1">
+<tag k="local_y" v="-9.137942"/>
+<tag k="local_x" v="9.152822"/>
+<tag k="ele" v="-1.944104"/>
+</node>
+  <node id="334" lat="37.416801207502" lon="-122.015907895349" visible="true" version="1">
+<tag k="local_y" v="-11.46665"/>
+<tag k="local_x" v="11.51552"/>
+<tag k="ele" v="-1.904581"/>
+</node>
+  <node id="335" lat="37.4167682009107" lon="-122.015891474201" visible="true" version="1">
+<tag k="local_y" v="-15.11342"/>
+<tag k="local_x" v="13.00687"/>
+<tag k="ele" v="-1.842728"/>
+</node>
+  <node id="336" lat="37.4167233973187" lon="-122.015885054157" visible="true" version="1">
+<tag k="local_y" v="-20.07824"/>
+<tag k="local_x" v="13.62687"/>
+<tag k="ele" v="-1.758544"/>
+</node>
+  <way id="337" visible="true" version="1">
+<nd ref="220"/>
+<nd ref="333"/>
+<nd ref="334"/>
+<nd ref="335"/>
+<nd ref="336"/>
+<nd ref="245"/>
+</way>
+  <node id="338" lat="37.4167824271757" lon="-122.015949552742" visible="true" version="1">
+<tag k="local_y" v="-13.58872"/>
+<tag k="local_x" v="7.85094"/>
+<tag k="ele" v="-1.926263"/>
+</node>
+  <node id="339" lat="37.4167585731065" lon="-122.01593498314" visible="true" version="1">
+<tag k="local_y" v="-16.22176"/>
+<tag k="local_x" v="9.167847"/>
+<tag k="ele" v="-1.883354"/>
+</node>
+  <node id="340" lat="37.4167309599082" lon="-122.015929014077" visible="true" version="1">
+<tag k="local_y" v="-19.27981"/>
+<tag k="local_x" v="9.728032"/>
+<tag k="ele" v="-1.830278"/>
+</node>
+  <way id="341" visible="true" version="1">
+<nd ref="223"/>
+<nd ref="338"/>
+<nd ref="339"/>
+<nd ref="340"/>
+<nd ref="76"/>
+</way>
+  <relation id="342" visible="true" version="1">
+<member type="way" ref="337" role="left"/>
+<member type="way" ref="341" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="right"/>
+</relation>
+  <node id="343" lat="37.4170037680583" lon="-122.015708332943" visible="true" version="1">
+<tag k="local_y" v="11.19084"/>
+<tag k="local_x" v="28.94049"/>
+<tag k="ele" v="-2.164391"/>
+</node>
+  <node id="344" lat="37.4170131639386" lon="-122.015739527923" visible="true" version="1">
+<tag k="local_y" v="12.20446"/>
+<tag k="local_x" v="26.16912"/>
+<tag k="ele" v="-2.187592"/>
+</node>
+  <node id="345" lat="37.4170257849411" lon="-122.015764325583" visible="true" version="1">
+<tag k="local_y" v="13.58179"/>
+<tag k="local_x" v="23.96013"/>
+<tag k="ele" v="-2.218274"/>
+</node>
+  <node id="346" lat="37.4170416310698" lon="-122.015782725923" visible="true" version="1">
+<tag k="local_y" v="15.32285"/>
+<tag k="local_x" v="22.31351"/>
+<tag k="ele" v="-2.256438"/>
+</node>
+  <node id="347" lat="37.4170607023366" lon="-122.015794728963" visible="true" version="1">
+<tag k="local_y" v="17.42763"/>
+<tag k="local_x" v="21.22926"/>
+<tag k="ele" v="-2.302085"/>
+</node>
+  <node id="348" lat="37.4170829987086" lon="-122.015800334677" visible="true" version="1">
+<tag k="local_y" v="19.89613"/>
+<tag k="local_x" v="20.70738"/>
+<tag k="ele" v="-2.355215"/>
+</node>
+  <way id="349" visible="true" version="1">
+<nd ref="248"/>
+<nd ref="343"/>
+<nd ref="344"/>
+<nd ref="345"/>
+<nd ref="346"/>
+<nd ref="347"/>
+<nd ref="348"/>
+<nd ref="181"/>
+</way>
+  <node id="350" lat="37.4170357611354" lon="-122.015704326078" visible="true" version="1">
+<tag k="local_y" v="14.74403"/>
+<tag k="local_x" v="29.25801"/>
+<tag k="ele" v="-2.264568"/>
+</node>
+  <node id="351" lat="37.4170504679671" lon="-122.01573159467" visible="true" version="1">
+<tag k="local_y" v="16.35049"/>
+<tag k="local_x" v="26.82794"/>
+<tag k="ele" v="-2.30154"/>
+</node>
+  <node id="352" lat="37.4170748660342" lon="-122.01574462916" visible="true" version="1">
+<tag k="local_y" v="19.04531"/>
+<tag k="local_x" v="25.64625"/>
+<tag k="ele" v="-2.363101"/>
+</node>
+  <way id="353" visible="true" version="1">
+<nd ref="58"/>
+<nd ref="350"/>
+<nd ref="351"/>
+<nd ref="352"/>
+<nd ref="183"/>
+</way>
+  <relation id="354" visible="true" version="1">
+<member type="way" ref="349" role="left"/>
+<member type="way" ref="353" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="right"/>
+</relation>
+  <node id="355" lat="37.419936691194" lon="-122.015761952016" visible="true" version="1">
+<tag k="local_y" v="336.5357"/>
+<tag k="local_x" v="20.79886"/>
+<tag k="ele" v="-7.131471"/>
+</node>
+  <node id="356" lat="37.4199669407736" lon="-122.015758587644" visible="true" version="1">
+<tag k="local_y" v="339.8949"/>
+<tag k="local_x" v="21.06153"/>
+<tag k="ele" v="-7.189013"/>
+</node>
+  <node id="357" lat="37.4199926896932" lon="-122.015750665236" visible="true" version="1">
+<tag k="local_y" v="342.7589"/>
+<tag k="local_x" v="21.73274"/>
+<tag k="ele" v="-7.243968"/>
+</node>
+  <node id="358" lat="37.4200139379514" lon="-122.015738184725" visible="true" version="1">
+<tag k="local_y" v="345.1279"/>
+<tag k="local_x" v="22.81251"/>
+<tag k="ele" v="-7.296337"/>
+</node>
+  <node id="359" lat="37.4200306855473" lon="-122.015721146174" visible="true" version="1">
+<tag k="local_y" v="347.0017"/>
+<tag k="local_x" v="24.30081"/>
+<tag k="ele" v="-7.346118"/>
+</node>
+  <node id="360" lat="37.4200429327539" lon="-122.015699549557" visible="true" version="1">
+<tag k="local_y" v="348.3804"/>
+<tag k="local_x" v="26.19766"/>
+<tag k="ele" v="-7.393313"/>
+</node>
+  <way id="361" visible="true" version="1">
+<nd ref="140"/>
+<nd ref="355"/>
+<nd ref="356"/>
+<nd ref="357"/>
+<nd ref="358"/>
+<nd ref="359"/>
+<nd ref="360"/>
+<nd ref="118"/>
+</way>
+  <node id="362" lat="37.419932532461" lon="-122.015715308887" visible="true" version="1">
+<tag k="local_y" v="336.1174"/>
+<tag k="local_x" v="24.93102"/>
+<tag k="ele" v="-7.196076"/>
+</node>
+  <node id="363" lat="37.4199571161131" lon="-122.015707344385" visible="true" version="1">
+<tag k="local_y" v="338.8522"/>
+<tag k="local_x" v="25.60731"/>
+<tag k="ele" v="-7.238129"/>
+</node>
+  <node id="364" lat="37.4199742327189" lon="-122.015693230543" visible="true" version="1">
+<tag k="local_y" v="340.7643"/>
+<tag k="local_x" v="26.83639"/>
+<tag k="ele" v="-7.279149"/>
+</node>
+  <way id="365" visible="true" version="1">
+<nd ref="145"/>
+<nd ref="362"/>
+<nd ref="363"/>
+<nd ref="364"/>
+<nd ref="121"/>
+</way>
+  <relation id="366" visible="true" version="1">
+<member type="way" ref="361" role="left"/>
+<member type="way" ref="365" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="right"/>
+</relation>
+  <node id="367" lat="37.4200534553337" lon="-122.015925609057" visible="true" version="1">
+<tag k="local_y" v="349.339"/>
+<tag k="local_x" v="6.181997"/>
+<tag k="ele" v="-7.374227"/>
+</node>
+  <node id="368" lat="37.4200477103057" lon="-122.015893763174" visible="true" version="1">
+<tag k="local_y" v="348.731"/>
+<tag k="local_x" v="9.006618"/>
+<tag k="ele" v="-7.352429"/>
+</node>
+  <node id="369" lat="37.4200382230861" lon="-122.015866491306" visible="true" version="1">
+<tag k="local_y" v="347.7037"/>
+<tag k="local_x" v="11.43083"/>
+<tag k="ele" v="-7.326087"/>
+</node>
+  <node id="370" lat="37.4200249939525" lon="-122.015843793377" visible="true" version="1">
+<tag k="local_y" v="346.2569"/>
+<tag k="local_x" v="13.45464"/>
+<tag k="ele" v="-7.295202"/>
+</node>
+  <node id="371" lat="37.4200080223567" lon="-122.015825669298" visible="true" version="1">
+<tag k="local_y" v="344.3907"/>
+<tag k="local_x" v="15.07805"/>
+<tag k="ele" v="-7.259773"/>
+</node>
+  <node id="372" lat="37.4199873085726" lon="-122.015812118697" visible="true" version="1">
+<tag k="local_y" v="342.1052"/>
+<tag k="local_x" v="16.3011"/>
+<tag k="ele" v="-7.219801"/>
+</node>
+  <node id="373" lat="37.419962852615" lon="-122.015803143147" visible="true" version="1">
+<tag k="local_y" v="339.4002"/>
+<tag k="local_x" v="17.12365"/>
+<tag k="ele" v="-7.175285"/>
+</node>
+  <node id="374" lat="37.4199346547453" lon="-122.015798740895" visible="true" version="1">
+<tag k="local_y" v="336.2758"/>
+<tag k="local_x" v="17.54585"/>
+<tag k="ele" v="-7.126227"/>
+</node>
+  <node id="375" lat="37.4199018158472" lon="-122.015797963669" visible="true" version="1">
+<tag k="local_y" v="332.6332"/>
+<tag k="local_x" v="17.65266"/>
+<tag k="ele" v="-7.071526"/>
+</node>
+  <way id="376" visible="true" version="1">
+<nd ref="129"/>
+<nd ref="367"/>
+<nd ref="368"/>
+<nd ref="369"/>
+<nd ref="370"/>
+<nd ref="371"/>
+<nd ref="372"/>
+<nd ref="373"/>
+<nd ref="374"/>
+<nd ref="375"/>
+</way>
+  <node id="377" lat="37.4199961594018" lon="-122.015959771013" visible="true" version="1">
+<tag k="local_y" v="342.9507"/>
+<tag k="local_x" v="3.225433"/>
+<tag k="ele" v="-7.307648"/>
+</node>
+  <node id="378" lat="37.4199936188573" lon="-122.015926760084" visible="true" version="1">
+<tag k="local_y" v="342.6994"/>
+<tag k="local_x" v="6.149437"/>
+<tag k="ele" v="-7.284927"/>
+</node>
+  <node id="379" lat="37.4199776863966" lon="-122.015878096189" visible="true" version="1">
+<tag k="local_y" v="340.9767"/>
+<tag k="local_x" v="10.47404"/>
+<tag k="ele" v="-7.235179"/>
+</node>
+  <node id="380" lat="37.4199470550896" lon="-122.015851303789" visible="true" version="1">
+<tag k="local_y" v="337.603"/>
+<tag k="local_x" v="12.88032"/>
+<tag k="ele" v="-7.179365"/>
+</node>
+  <node id="381" lat="37.4199262274088" lon="-122.015846109494" visible="true" version="1">
+<tag k="local_y" v="335.2971"/>
+<tag k="local_x" v="13.36407"/>
+<tag k="ele" v="-7.149183"/>
+</node>
+  <way id="382" visible="true" version="1">
+<nd ref="377"/>
+<nd ref="378"/>
+<nd ref="379"/>
+<nd ref="380"/>
+<nd ref="381"/>
+<nd ref="150"/>
+</way>
+  <relation id="383" visible="true" version="1">
+<member type="way" ref="376" role="left"/>
+<member type="way" ref="382" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="right"/>
+</relation>
+  <node id="384" lat="37.4200577015585" lon="-122.015924815531" visible="true" version="1">
+<tag k="local_y" v="349.8109"/>
+<tag k="local_x" v="6.247297"/>
+<tag k="ele" v="-7.380807"/>
+</node>
+  <node id="385" lat="37.4200630888848" lon="-122.015891193344" visible="true" version="1">
+<tag k="local_y" v="350.4396"/>
+<tag k="local_x" v="9.216207"/>
+<tag k="ele" v="-7.376596"/>
+</node>
+  <node id="386" lat="37.4200716916047" lon="-122.015862278374" visible="true" version="1">
+<tag k="local_y" v="351.4207"/>
+<tag k="local_x" v="11.76486"/>
+<tag k="ele" v="-7.378868"/>
+</node>
+  <node id="387" lat="37.420083509994" lon="-122.015838070304" visible="true" version="1">
+<tag k="local_y" v="352.7543"/>
+<tag k="local_x" v="13.89329"/>
+<tag k="ele" v="-7.387619"/>
+</node>
+  <node id="388" lat="37.4200985437878" lon="-122.015818569999" visible="true" version="1">
+<tag k="local_y" v="354.4402"/>
+<tag k="local_x" v="15.60141"/>
+<tag k="ele" v="-7.40285"/>
+</node>
+  <node id="389" lat="37.4201167929812" lon="-122.015803776608" visible="true" version="1">
+<tag k="local_y" v="356.4786"/>
+<tag k="local_x" v="16.88931"/>
+<tag k="ele" v="-7.424561"/>
+</node>
+  <node id="390" lat="37.4201382573035" lon="-122.015793690436" visible="true" version="1">
+<tag k="local_y" v="358.8693"/>
+<tag k="local_x" v="17.75695"/>
+<tag k="ele" v="-7.452753"/>
+</node>
+  <node id="391" lat="37.4201629375809" lon="-122.015788311445" visible="true" version="1">
+<tag k="local_y" v="361.6124"/>
+<tag k="local_x" v="18.20434"/>
+<tag k="ele" v="-7.487424"/>
+</node>
+  <node id="392" lat="37.4201913755607" lon="-122.015788250808" visible="true" version="1">
+<tag k="local_y" v="364.7675"/>
+<tag k="local_x" v="18.17677"/>
+<tag k="ele" v="-7.52871"/>
+</node>
+  <way id="393" visible="true" version="1">
+<nd ref="129"/>
+<nd ref="384"/>
+<nd ref="385"/>
+<nd ref="386"/>
+<nd ref="387"/>
+<nd ref="388"/>
+<nd ref="389"/>
+<nd ref="390"/>
+<nd ref="391"/>
+<nd ref="392"/>
+</way>
+  <node id="394" lat="37.4201915961159" lon="-122.015835687201" visible="true" version="1">
+<tag k="local_y" v="364.7482"/>
+<tag k="local_x" v="13.97899"/>
+<tag k="ele" v="-7.559159"/>
+</node>
+  <node id="395" lat="37.4201684948073" lon="-122.015836185939" visible="true" version="1">
+<tag k="local_y" v="362.1847"/>
+<tag k="local_x" v="13.96161"/>
+<tag k="ele" v="-7.519724"/>
+</node>
+  <node id="396" lat="37.4201344997405" lon="-122.015855555503" visible="true" version="1">
+<tag k="local_y" v="358.3952"/>
+<tag k="local_x" v="12.28701"/>
+<tag k="ele" v="-7.481133"/>
+</node>
+  <node id="397" lat="37.4201164534153" lon="-122.015897955488" visible="true" version="1">
+<tag k="local_y" v="356.3539"/>
+<tag k="local_x" v="8.556042"/>
+<tag k="ele" v="-7.493007"/>
+</node>
+  <way id="398" visible="true" version="1">
+<nd ref="394"/>
+<nd ref="395"/>
+<nd ref="396"/>
+<nd ref="397"/>
+<nd ref="132"/>
+</way>
+  <relation id="399" visible="true" version="1">
+<member type="way" ref="393" role="left"/>
+<member type="way" ref="398" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="right"/>
+</relation>
+  <node id="400" lat="37.4200576481668" lon="-122.015707950429" visible="true" version="1">
+<tag k="local_y" v="350.0052"/>
+<tag k="local_x" v="25.43724"/>
+<tag k="ele" v="-7.417709"/>
+</node>
+  <node id="401" lat="37.4200673860411" lon="-122.015736415293" visible="true" version="1">
+<tag k="local_y" v="351.0593"/>
+<tag k="local_x" v="22.90717"/>
+<tag k="ele" v="-7.405323"/>
+</node>
+  <node id="402" lat="37.4200820927196" lon="-122.015758864876" visible="true" version="1">
+<tag k="local_y" v="352.6702"/>
+<tag k="local_x" v="20.90363"/>
+<tag k="ele" v="-7.40528"/>
+</node>
+  <node id="403" lat="37.4201017690309" lon="-122.015775299147" visible="true" version="1">
+<tag k="local_y" v="354.838"/>
+<tag k="local_x" v="19.42661"/>
+<tag k="ele" v="-7.417583"/>
+</node>
+  <node id="404" lat="37.4201264141523" lon="-122.015785718136" visible="true" version="1">
+<tag k="local_y" v="357.5627"/>
+<tag k="local_x" v="18.47612"/>
+<tag k="ele" v="-7.442231"/>
+</node>
+  <node id="405" lat="37.4201560286348" lon="-122.015790121768" visible="true" version="1">
+<tag k="local_y" v="360.8442"/>
+<tag k="local_x" v="18.05215"/>
+<tag k="ele" v="-7.479225"/>
+</node>
+  <node id="406" lat="37.420191375561" lon="-122.015788250852" visible="true" version="1">
+<tag k="local_y" v="364.7675"/>
+<tag k="local_x" v="18.17677"/>
+<tag k="ele" v="-7.52871"/>
+</node>
+  <way id="407" visible="true" version="1">
+<nd ref="118"/>
+<nd ref="400"/>
+<nd ref="401"/>
+<nd ref="402"/>
+<nd ref="403"/>
+<nd ref="404"/>
+<nd ref="405"/>
+<nd ref="406"/>
+</way>
+  <node id="408" lat="37.4201169691488" lon="-122.015711786081" visible="true" version="1">
+<tag k="local_y" v="356.5831"/>
+<tag k="local_x" v="25.02912"/>
+<tag k="ele" v="-7.507685"/>
+</node>
+  <node id="409" lat="37.4201322008981" lon="-122.015739120189" visible="true" version="1">
+<tag k="local_y" v="358.2477"/>
+<tag k="local_x" v="22.59275"/>
+<tag k="ele" v="-7.481974"/>
+</node>
+  <node id="410" lat="37.4201565653167" lon="-122.015753982657" visible="true" version="1">
+<tag k="local_y" v="360.9371"/>
+<tag k="local_x" v="21.24939"/>
+<tag k="ele" v="-7.488501"/>
+</node>
+  <node id="411" lat="37.4201916115543" lon="-122.015757789326" visible="true" version="1">
+<tag k="local_y" v="364.8218"/>
+<tag k="local_x" v="20.87196"/>
+<tag k="ele" v="-7.527635"/>
+</node>
+  <way id="412" visible="true" version="1">
+<nd ref="126"/>
+<nd ref="408"/>
+<nd ref="409"/>
+<nd ref="410"/>
+<nd ref="411"/>
+</way>
+  <relation id="413" visible="true" version="1">
+<member type="way" ref="407" role="left"/>
+<member type="way" ref="412" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="right"/>
+</relation>
+  <node id="414" lat="37.4200540002496" lon="-122.0158172389" visible="true" version="1">
+<tag k="local_y" v="349.4996"/>
+<tag k="local_x" v="15.77079"/>
+<tag k="ele" v="-7.417886"/>
+</node>
+  <way id="415" visible="true" version="1">
+<nd ref="118"/>
+<nd ref="414"/>
+<nd ref="129"/>
+</way>
+  <node id="416" lat="37.4199894482664" lon="-122.015798796999" visible="true" version="1">
+<tag k="local_y" v="342.3549"/>
+<tag k="local_x" v="17.47743"/>
+<tag k="ele" v="-7.342464"/>
+</node>
+  <way id="417" visible="true" version="1">
+<nd ref="377"/>
+<nd ref="416"/>
+<nd ref="121"/>
+</way>
+  <relation id="418" visible="true" version="1">
+<member type="way" ref="415" role="left"/>
+<member type="way" ref="417" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="419" lat="37.4201123163651" lon="-122.015817733015" visible="true" version="1">
+<tag k="local_y" v="355.969"/>
+<tag k="local_x" v="15.65952"/>
+<tag k="ele" v="-7.557777"/>
+</node>
+  <way id="420" visible="true" version="1">
+<nd ref="126"/>
+<nd ref="419"/>
+<nd ref="132"/>
+</way>
+  <relation id="421" visible="true" version="1">
+<member type="way" ref="415" role="left"/>
+<member type="way" ref="420" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="422" lat="37.4199743092296" lon="-122.01579518354" visible="true" version="1">
+<tag k="local_y" v="340.6786"/>
+<tag k="local_x" v="17.81471"/>
+<tag k="ele" v="-7.18592"/>
+</node>
+  <node id="423" lat="37.4200466178938" lon="-122.015792749235" visible="true" version="1">
+<tag k="local_y" v="348.7032"/>
+<tag k="local_x" v="17.94637"/>
+<tag k="ele" v="-7.300169"/>
+</node>
+  <node id="424" lat="37.420118926557" lon="-122.015790314923" visible="true" version="1">
+<tag k="local_y" v="356.7277"/>
+<tag k="local_x" v="18.07803"/>
+<tag k="ele" v="-7.414419"/>
+</node>
+  <way id="425" visible="true" version="1">
+<nd ref="148"/>
+<nd ref="422"/>
+<nd ref="423"/>
+<nd ref="424"/>
+<nd ref="108"/>
+</way>
+  <node id="426" lat="37.420046827552" lon="-122.015757770148" visible="true" version="1">
+<tag k="local_y" v="348.7587"/>
+<tag k="local_x" v="21.04134"/>
+<tag k="ele" v="-7.299568"/>
+</node>
+  <way id="427" visible="true" version="1">
+<nd ref="140"/>
+<nd ref="426"/>
+<nd ref="411"/>
+</way>
+  <relation id="428" visible="true" version="1">
+<member type="way" ref="425" role="left"/>
+<member type="way" ref="427" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="429" lat="37.4200474990664" lon="-122.015840273413" visible="true" version="1">
+<tag k="local_y" v="348.757"/>
+<tag k="local_x" v="13.74005"/>
+<tag k="ele" v="-7.337272"/>
+</node>
+  <way id="430" visible="true" version="1">
+<nd ref="394"/>
+<nd ref="429"/>
+<nd ref="150"/>
+</way>
+  <relation id="431" visible="true" version="1">
+<member type="way" ref="425" role="left"/>
+<member type="way" ref="430" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="straight"/>
+</relation>
+  <node id="432" lat="37.4200516728921" lon="-122.015697449593" visible="true" version="1">
+<tag k="local_y" v="349.352"/>
+<tag k="local_x" v="26.37336"/>
+<tag k="ele" v="-7.417626"/>
+</node>
+  <node id="433" lat="37.4200461782789" lon="-122.015720162381" visible="true" version="1">
+<tag k="local_y" v="348.7214"/>
+<tag k="local_x" v="24.36992"/>
+<tag k="ele" v="-7.385432"/>
+</node>
+  <node id="434" lat="37.4200369419398" lon="-122.015740004953" visible="true" version="1">
+<tag k="local_y" v="347.6784"/>
+<tag k="local_x" v="22.62479"/>
+<tag k="ele" v="-7.350125"/>
+</node>
+  <node id="435" lat="37.4200239647012" lon="-122.015756977317" visible="true" version="1">
+<tag k="local_y" v="346.2229"/>
+<tag k="local_x" v="21.13798"/>
+<tag k="ele" v="-7.311706"/>
+</node>
+  <node id="436" lat="37.4200072460164" lon="-122.015771079717" visible="true" version="1">
+<tag k="local_y" v="344.355"/>
+<tag k="local_x" v="19.90945"/>
+<tag k="ele" v="-7.270173"/>
+</node>
+  <node id="437" lat="37.4199867858858" lon="-122.015782312087" visible="true" version="1">
+<tag k="local_y" v="342.0747"/>
+<tag k="local_x" v="18.93922"/>
+<tag k="ele" v="-7.225529"/>
+</node>
+  <node id="438" lat="37.4199625843106" lon="-122.015790674494" visible="true" version="1">
+<tag k="local_y" v="339.3819"/>
+<tag k="local_x" v="18.22728"/>
+<tag k="ele" v="-7.177771"/>
+</node>
+  <node id="439" lat="37.4199346418434" lon="-122.015796167146" visible="true" version="1">
+<tag k="local_y" v="336.2768"/>
+<tag k="local_x" v="17.77361"/>
+<tag k="ele" v="-7.126902"/>
+</node>
+  <way id="440" visible="true" version="1">
+<nd ref="118"/>
+<nd ref="432"/>
+<nd ref="433"/>
+<nd ref="434"/>
+<nd ref="435"/>
+<nd ref="436"/>
+<nd ref="437"/>
+<nd ref="438"/>
+<nd ref="439"/>
+<nd ref="375"/>
+</way>
+  <node id="441" lat="37.4201058131718" lon="-122.015715515086" visible="true" version="1">
+<tag k="local_y" v="355.3419"/>
+<tag k="local_x" v="24.71207"/>
+<tag k="ele" v="-7.527638"/>
+</node>
+  <node id="442" lat="37.4200955294657" lon="-122.015750994542" visible="true" version="1">
+<tag k="local_y" v="354.1682"/>
+<tag k="local_x" v="21.58449"/>
+<tag k="ele" v="-7.49003"/>
+</node>
+  <node id="443" lat="37.4200809618229" lon="-122.015780988382" visible="true" version="1">
+<tag k="local_y" v="352.5243"/>
+<tag k="local_x" v="18.94728"/>
+<tag k="ele" v="-7.448512"/>
+</node>
+  <node id="444" lat="37.4200621107981" lon="-122.015805496641" visible="true" version="1">
+<tag k="local_y" v="350.4102"/>
+<tag k="local_x" v="16.80044"/>
+<tag k="ele" v="-7.403085"/>
+</node>
+  <node id="445" lat="37.4200389761228" lon="-122.015824519708" visible="true" version="1">
+<tag k="local_y" v="347.826"/>
+<tag k="local_x" v="15.14392"/>
+<tag k="ele" v="-7.353747"/>
+</node>
+  <node id="446" lat="37.4200115404447" lon="-122.015836039148" visible="true" version="1">
+<tag k="local_y" v="344.7715"/>
+<tag k="local_x" v="14.15637"/>
+<tag k="ele" v="-7.3005"/>
+</node>
+  <node id="447" lat="37.4199798125001" lon="-122.015841004897" visible="true" version="1">
+<tag k="local_y" v="341.2468"/>
+<tag k="local_x" v="13.75371"/>
+<tag k="ele" v="-7.243343"/>
+</node>
+  <node id="448" lat="37.4199438344267" lon="-122.015844478116" visible="true" version="1">
+<tag k="local_y" v="337.252"/>
+<tag k="local_x" v="13.48804"/>
+<tag k="ele" v="-7.182277"/>
+</node>
+  <way id="449" visible="true" version="1">
+<nd ref="126"/>
+<nd ref="441"/>
+<nd ref="442"/>
+<nd ref="443"/>
+<nd ref="444"/>
+<nd ref="445"/>
+<nd ref="446"/>
+<nd ref="447"/>
+<nd ref="448"/>
+<nd ref="150"/>
+</way>
+  <relation id="450" visible="true" version="1">
+<member type="way" ref="440" role="left"/>
+<member type="way" ref="449" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="left"/>
+</relation>
+  <node id="451" lat="37.4199979961373" lon="-122.015910782203" visible="true" version="1">
+<tag k="local_y" v="343.1998"/>
+<tag k="local_x" v="7.558214"/>
+<tag k="ele" v="-7.301348"/>
+</node>
+  <node id="452" lat="37.4200045782826" lon="-122.015868263406" visible="true" version="1">
+<tag k="local_y" v="343.9693"/>
+<tag k="local_x" v="11.31298"/>
+<tag k="ele" v="-7.302542"/>
+</node>
+  <node id="453" lat="37.4200161967361" lon="-122.015832264977" visible="true" version="1">
+<tag k="local_y" v="345.2916"/>
+<tag k="local_x" v="14.48495"/>
+<tag k="ele" v="-7.311475"/>
+</node>
+  <node id="454" lat="37.4200328546289" lon="-122.015803030118" visible="true" version="1">
+<tag k="local_y" v="347.1667"/>
+<tag k="local_x" v="17.05258"/>
+<tag k="ele" v="-7.328145"/>
+</node>
+  <node id="455" lat="37.4200545486197" lon="-122.015780223023" visible="true" version="1">
+<tag k="local_y" v="349.5946"/>
+<tag k="local_x" v="19.0456"/>
+<tag k="ele" v="-7.352554"/>
+</node>
+  <node id="456" lat="37.4200812865048" lon="-122.015764779596" visible="true" version="1">
+<tag k="local_y" v="352.5753"/>
+<tag k="local_x" v="20.38118"/>
+<tag k="ele" v="-7.3847"/>
+</node>
+  <node id="457" lat="37.4201130945057" lon="-122.015759914789" visible="true" version="1">
+<tag k="local_y" v="356.1088"/>
+<tag k="local_x" v="20.77482"/>
+<tag k="ele" v="-7.424585"/>
+</node>
+  <node id="458" lat="37.4201499155925" lon="-122.015758679965" visible="true" version="1">
+<tag k="local_y" v="360.195"/>
+<tag k="local_x" v="20.84144"/>
+<tag k="ele" v="-7.472208"/>
+</node>
+  <way id="459" visible="true" version="1">
+<nd ref="377"/>
+<nd ref="451"/>
+<nd ref="452"/>
+<nd ref="453"/>
+<nd ref="454"/>
+<nd ref="455"/>
+<nd ref="456"/>
+<nd ref="457"/>
+<nd ref="458"/>
+<nd ref="411"/>
+</way>
+  <relation id="460" visible="true" version="1">
+<member type="way" ref="393" role="left"/>
+<member type="way" ref="459" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="left"/>
+</relation>
+  <node id="461" lat="37.4199469566796" lon="-122.015762803381" visible="true" version="1">
+<tag k="local_y" v="337.6739"/>
+<tag k="local_x" v="20.71164"/>
+<tag k="ele" v="-7.156929"/>
+</node>
+  <node id="462" lat="37.4199868149675" lon="-122.015761655165" visible="true" version="1">
+<tag k="local_y" v="342.097"/>
+<tag k="local_x" v="20.76707"/>
+<tag k="ele" v="-7.234818"/>
+</node>
+  <node id="463" lat="37.4200212686649" lon="-122.015764696733" visible="true" version="1">
+<tag k="local_y" v="345.9167"/>
+<tag k="local_x" v="20.45803"/>
+<tag k="ele" v="-7.304756"/>
+</node>
+  <node id="464" lat="37.4200503856531" lon="-122.015780146974" visible="true" version="1">
+<tag k="local_y" v="349.1328"/>
+<tag k="local_x" v="19.05715"/>
+<tag k="ele" v="-7.366743"/>
+</node>
+  <node id="465" lat="37.4200741209806" lon="-122.01580260744" visible="true" version="1">
+<tag k="local_y" v="351.7454"/>
+<tag k="local_x" v="17.04219"/>
+<tag k="ele" v="-7.420778"/>
+</node>
+  <node id="466" lat="37.420092474643" lon="-122.015832078101" visible="true" version="1">
+<tag k="local_y" v="353.7544"/>
+<tag k="local_x" v="14.41314"/>
+<tag k="ele" v="-7.466863"/>
+</node>
+  <node id="467" lat="37.4201054471853" lon="-122.015868558959" visible="true" version="1">
+<tag k="local_y" v="355.16"/>
+<tag k="local_x" v="11.17002"/>
+<tag k="ele" v="-7.504994"/>
+</node>
+  <node id="468" lat="37.4201130380511" lon="-122.015912050028" visible="true" version="1">
+<tag k="local_y" v="355.962"/>
+<tag k="local_x" v="7.312805"/>
+<tag k="ele" v="-7.535176"/>
+</node>
+  <way id="469" visible="true" version="1">
+<nd ref="140"/>
+<nd ref="461"/>
+<nd ref="462"/>
+<nd ref="463"/>
+<nd ref="464"/>
+<nd ref="465"/>
+<nd ref="466"/>
+<nd ref="467"/>
+<nd ref="468"/>
+<nd ref="132"/>
+</way>
+  <relation id="470" visible="true" version="1">
+<member type="way" ref="376" role="left"/>
+<member type="way" ref="469" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="left"/>
+</relation>
+  <node id="471" lat="37.4201521127585" lon="-122.015836308253" visible="true" version="1">
+<tag k="local_y" v="360.3671"/>
+<tag k="local_x" v="13.96976"/>
+<tag k="ele" v="-7.497999"/>
+</node>
+  <node id="472" lat="37.420116265628" lon="-122.01583119251" visible="true" version="1">
+<tag k="local_y" v="356.3947"/>
+<tag k="local_x" v="14.46395"/>
+<tag k="ele" v="-7.446618"/>
+</node>
+  <node id="473" lat="37.4200847025266" lon="-122.015820606361" visible="true" version="1">
+<tag k="local_y" v="352.9027"/>
+<tag k="local_x" v="15.43725"/>
+<tag k="ele" v="-7.405784"/>
+</node>
+  <node id="474" lat="37.4200574221189" lon="-122.015804389556" visible="true" version="1">
+<tag k="local_y" v="349.8911"/>
+<tag k="local_x" v="16.90383"/>
+<tag k="ele" v="-7.375497"/>
+</node>
+  <node id="475" lat="37.4200344257614" lon="-122.015782606185" visible="true" version="1">
+<tag k="local_y" v="347.3599"/>
+<tag k="local_x" v="18.85802"/>
+<tag k="ele" v="-7.355758"/>
+</node>
+  <node id="476" lat="37.4200135873903" lon="-122.015750062647" visible="true" version="1">
+<tag k="local_y" v="345.078"/>
+<tag k="local_x" v="21.76186"/>
+<tag k="ele" v="-7.346566"/>
+</node>
+  <node id="477" lat="37.4199986265062" lon="-122.015715847753" visible="true" version="1">
+<tag k="local_y" v="343.4498"/>
+<tag k="local_x" v="24.80679"/>
+<tag k="ele" v="-7.34792"/>
+</node>
+  <way id="478" visible="true" version="1">
+<nd ref="394"/>
+<nd ref="471"/>
+<nd ref="472"/>
+<nd ref="473"/>
+<nd ref="474"/>
+<nd ref="475"/>
+<nd ref="476"/>
+<nd ref="477"/>
+<nd ref="121"/>
+</way>
+  <relation id="479" visible="true" version="1">
+<member type="way" ref="407" role="left"/>
+<member type="way" ref="478" role="right"/>
+<tag k="location" v="urban"/>
+<tag k="subtype" v="road"/>
+<tag k="participant:vehicle" v="yes"/>
+<tag k="type" v="lanelet"/>
+<tag k="turn_direction" v="left"/>
+</relation>
+  <node id="480" lat="37.416846053108" lon="-122.015971518388" visible="true" version="1">
+<tag k="local_y" v="-6.55"/>
+<tag k="local_x" v="5.833496"/>
+<tag k="ele" v="-1.9"/>
+</node>
+  <node id="481" lat="37.4167496169919" lon="-122.015972780224" visible="true" version="1">
+<tag k="local_y" v="-17.25031"/>
+<tag k="local_x" v="5.833495"/>
+<tag k="ele" v="-1.9"/>
+</node>
+  <way id="482" visible="true" version="1">
+<nd ref="196"/>
+<nd ref="480"/>
+<nd ref="481"/>
+<tag k="type" v="stop_line"/>
+</way>
+  <node id="483" lat="37.4168336278815" lon="-122.015655158787" visible="true" version="1">
+<tag k="local_y" v="-7.636305"/>
+<tag k="local_x" v="33.843"/>
+<tag k="ele" v="4.707311"/>
+</node>
+  <node id="484" lat="37.4168290668801" lon="-122.015655218485" visible="true" version="1">
+<tag k="local_y" v="-8.142383"/>
+<tag k="local_x" v="33.843"/>
+<tag k="ele" v="4.707311"/>
+</node>
+  <way id="485" visible="true" version="1">
+<nd ref="483"/>
+<nd ref="484"/>
+<tag k="type" v="traffic_light"/>
+<tag k="subtype" v="red_yellow_green"/>
+<tag k="height" v="1.18621826171875"/>
+</way>
+  <node id="486" lat="37.4168313473786" lon="-122.015655188636" visible="true" version="1">
+<tag k="color" v="red"/>
+<tag k="local_y" v="-7.889344"/>
+<tag k="local_x" v="33.843"/>
+<tag k="ele" v="5.70042"/>
+</node>
+  <node id="487" lat="37.4168313473786" lon="-122.015655188636" visible="true" version="1">
+<tag k="color" v="yellow"/>
+<tag k="local_y" v="-7.889344"/>
+<tag k="local_x" v="33.843"/>
+<tag k="ele" v="5.30042"/>
+</node>
+  <node id="488" lat="37.4168313473786" lon="-122.015655188636" visible="true" version="1">
+<tag k="color" v="green"/>
+<tag k="local_y" v="-7.889344"/>
+<tag k="local_x" v="33.843"/>
+<tag k="ele" v="4.90042"/>
+</node>
+  <way id="489" visible="true" version="1">
+<nd ref="486"/>
+<nd ref="487"/>
+<nd ref="488"/>
+<tag k="type" v="light_bulbs"/>
+<tag k="traffic_light_id" v="485"/>
+</way>
+  <node id="490" lat="37.4167575041422" lon="-122.016023986976" visible="true" version="1">
+<tag k="local_y" v="-16.42256"/>
+<tag k="local_x" v="1.292999"/>
+<tag k="ele" v="1.688131"/>
+</node>
+  <node id="491" lat="37.4167513908273" lon="-122.016024066962" visible="true" version="1">
+<tag k="local_y" v="-17.10087"/>
+<tag k="local_x" v="1.292999"/>
+<tag k="ele" v="1.688131"/>
+</node>
+  <way id="492" visible="true" version="1">
+<nd ref="490"/>
+<nd ref="491"/>
+<tag k="type" v="traffic_light"/>
+<tag k="subtype" v="red_yellow_green"/>
+<tag k="height" v="1.59200000762939"/>
+</way>
+  <node id="493" lat="37.4167544474848" lon="-122.016024026969" visible="true" version="1">
+<tag k="color" v="red"/>
+<tag k="local_y" v="-16.76171"/>
+<tag k="local_x" v="1.292999"/>
+<tag k="ele" v="2.884131"/>
+</node>
+  <node id="494" lat="37.4167544474848" lon="-122.016024026969" visible="true" version="1">
+<tag k="color" v="yellow"/>
+<tag k="local_y" v="-16.76171"/>
+<tag k="local_x" v="1.292999"/>
+<tag k="ele" v="2.484131"/>
+</node>
+  <node id="495" lat="37.4167544474848" lon="-122.016024026969" visible="true" version="1">
+<tag k="color" v="green"/>
+<tag k="local_y" v="-16.76171"/>
+<tag k="local_x" v="1.292999"/>
+<tag k="ele" v="2.084131"/>
+</node>
+  <way id="496" visible="true" version="1">
+<nd ref="493"/>
+<nd ref="494"/>
+<nd ref="495"/>
+<tag k="type" v="light_bulbs"/>
+<tag k="traffic_light_id" v="492"/>
+</way>
+  <node id="497" lat="37.4167546626279" lon="-122.0156571981" visible="true" version="1">
+<tag k="local_y" v="-16.39902"/>
+<tag k="local_x" v="33.754"/>
+<tag k="ele" v="1.553329"/>
+</node>
+  <node id="498" lat="37.4167501016308" lon="-122.015657257797" visible="true" version="1">
+<tag k="local_y" v="-16.9051"/>
+<tag k="local_x" v="33.754"/>
+<tag k="ele" v="1.553329"/>
+</node>
+  <way id="499" visible="true" version="1">
+<nd ref="497"/>
+<nd ref="498"/>
+<tag k="type" v="traffic_light"/>
+<tag k="subtype" v="red_yellow_green"/>
+<tag k="height" v="1.18621921539307"/>
+</way>
+  <node id="500" lat="37.4167523821293" lon="-122.015657227948" visible="true" version="1">
+<tag k="color" v="red"/>
+<tag k="local_y" v="-16.65206"/>
+<tag k="local_x" v="33.754"/>
+<tag k="ele" v="2.546439"/>
+</node>
+  <node id="501" lat="37.4167523821293" lon="-122.015657227948" visible="true" version="1">
+<tag k="color" v="yellow"/>
+<tag k="local_y" v="-16.65206"/>
+<tag k="local_x" v="33.754"/>
+<tag k="ele" v="2.146439"/>
+</node>
+  <node id="502" lat="37.4167523821293" lon="-122.015657227948" visible="true" version="1">
+<tag k="color" v="green"/>
+<tag k="local_y" v="-16.65206"/>
+<tag k="local_x" v="33.754"/>
+<tag k="ele" v="1.746438"/>
+</node>
+  <way id="503" visible="true" version="1">
+<nd ref="500"/>
+<nd ref="501"/>
+<nd ref="502"/>
+<tag k="type" v="light_bulbs"/>
+<tag k="traffic_light_id" v="499"/>
+</way>
+  <node id="504" lat="37.4168965159615" lon="-122.015659839013" visible="true" version="1">
+<tag k="local_y" v="-0.6634856"/>
+<tag k="local_x" v="33.356"/>
+<tag k="ele" v="2.252396"/>
+</node>
+  <node id="505" lat="37.4168906299065" lon="-122.015659916054" visible="true" version="1">
+<tag k="local_y" v="-1.316588"/>
+<tag k="local_x" v="33.356"/>
+<tag k="ele" v="2.252396"/>
+</node>
+  <way id="506" visible="true" version="1">
+<nd ref="504"/>
+<nd ref="505"/>
+<tag k="type" v="traffic_light"/>
+<tag k="subtype" v="red_yellow_green"/>
+<tag k="height" v="1.53083515167236"/>
+</way>
+  <node id="507" lat="37.416893572934" lon="-122.015659877533" visible="true" version="1">
+<tag k="color" v="red"/>
+<tag k="local_y" v="-0.9900366"/>
+<tag k="local_x" v="33.356"/>
+<tag k="ele" v="3.417814"/>
+</node>
+  <node id="508" lat="37.416893572934" lon="-122.015659877533" visible="true" version="1">
+<tag k="color" v="yellow"/>
+<tag k="local_y" v="-0.9900366"/>
+<tag k="local_x" v="33.356"/>
+<tag k="ele" v="3.017814"/>
+</node>
+  <node id="509" lat="37.416893572934" lon="-122.015659877533" visible="true" version="1">
+<tag k="color" v="green"/>
+<tag k="local_y" v="-0.9900366"/>
+<tag k="local_x" v="33.356"/>
+<tag k="ele" v="2.617814"/>
+</node>
+  <way id="510" visible="true" version="1">
+<nd ref="507"/>
+<nd ref="508"/>
+<nd ref="509"/>
+<tag k="type" v="light_bulbs"/>
+<tag k="traffic_light_id" v="506"/>
+</way>
+  <relation id="511" visible="true" version="1">
+<member type="way" ref="482" role="ref_line"/>
+<member type="way" ref="485" role="refers"/>
+<member type="way" ref="492" role="refers"/>
+<member type="way" ref="499" role="refers"/>
+<member type="way" ref="506" role="refers"/>
+<member type="way" ref="489" role="light_bulbs"/>
+<member type="way" ref="496" role="light_bulbs"/>
+<member type="way" ref="503" role="light_bulbs"/>
+<member type="way" ref="510" role="light_bulbs"/>
+<tag k="subtype" v="traffic_light"/>
+<tag k="type" v="regulatory_element"/>
+</relation>
+  <node id="512" lat="37.4171090456169" lon="-122.015860874316" visible="true" version="1">
+<tag k="local_y" v="22.73"/>
+<tag k="local_x" v="15.32"/>
+<tag k="ele" v="-2.37"/>
+</node>
+  <way id="513" visible="true" version="1">
+<nd ref="181"/>
+<nd ref="512"/>
+<nd ref="175"/>
+<tag k="type" v="stop_line"/>
+</way>
+  <node id="514" lat="37.416694177117" lon="-122.015839863958" visible="true" version="1">
+<tag k="local_y" v="-23.27835"/>
+<tag k="local_x" v="17.65966"/>
+<tag k="ele" v="3.974327"/>
+</node>
+  <node id="515" lat="37.4166942371753" lon="-122.015847077902" visible="true" version="1">
+<tag k="local_y" v="-23.27835"/>
+<tag k="local_x" v="17.02122"/>
+<tag k="ele" v="3.974327"/>
+</node>
+  <way id="516" visible="true" version="1">
+<nd ref="514"/>
+<nd ref="515"/>
+<tag k="type" v="traffic_light"/>
+<tag k="subtype" v="red_yellow_green"/>
+<tag k="height" v="1.49646854400635"/>
+</way>
+  <node id="517" lat="37.4166942071462" lon="-122.01584347093" visible="true" version="1">
+<tag k="color" v="red"/>
+<tag k="local_y" v="-23.27835"/>
+<tag k="local_x" v="17.34044"/>
+<tag k="ele" v="5.122561"/>
+</node>
+  <node id="518" lat="37.4166942071462" lon="-122.01584347093" visible="true" version="1">
+<tag k="color" v="yellow"/>
+<tag k="local_y" v="-23.27835"/>
+<tag k="local_x" v="17.34044"/>
+<tag k="ele" v="4.722561"/>
+</node>
+  <node id="519" lat="37.4166942071462" lon="-122.01584347093" visible="true" version="1">
+<tag k="color" v="green"/>
+<tag k="local_y" v="-23.27835"/>
+<tag k="local_x" v="17.34044"/>
+<tag k="ele" v="4.322561"/>
+</node>
+  <way id="520" visible="true" version="1">
+<nd ref="517"/>
+<nd ref="518"/>
+<nd ref="519"/>
+<tag k="type" v="light_bulbs"/>
+<tag k="traffic_light_id" v="516"/>
+</way>
+  <node id="521" lat="37.4166958469603" lon="-122.015976194616" visible="true" version="1">
+<tag k="local_y" v="-23.219"/>
+<tag k="local_x" v="5.593609"/>
+<tag k="ele" v="1.109623"/>
+</node>
+  <node id="522" lat="37.4166959075421" lon="-122.015983472439" visible="true" version="1">
+<tag k="local_y" v="-23.219"/>
+<tag k="local_x" v="4.949512"/>
+<tag k="ele" v="1.109623"/>
+</node>
+  <way id="523" visible="true" version="1">
+<nd ref="521"/>
+<nd ref="522"/>
+<tag k="type" v="traffic_light"/>
+<tag k="subtype" v="red_yellow_green"/>
+<tag k="height" v="1.50971794128418"/>
+</way>
+  <node id="524" lat="37.4166958772513" lon="-122.015979833527" visible="true" version="1">
+<tag k="color" v="red"/>
+<tag k="local_y" v="-23.219"/>
+<tag k="local_x" v="5.271561"/>
+<tag k="ele" v="2.264482"/>
+</node>
+  <node id="525" lat="37.4166958772513" lon="-122.015979833527" visible="true" version="1">
+<tag k="color" v="yellow"/>
+<tag k="local_y" v="-23.219"/>
+<tag k="local_x" v="5.271561"/>
+<tag k="ele" v="1.864482"/>
+</node>
+  <node id="526" lat="37.4166958772513" lon="-122.015979833527" visible="true" version="1">
+<tag k="color" v="green"/>
+<tag k="local_y" v="-23.219"/>
+<tag k="local_x" v="5.271561"/>
+<tag k="ele" v="1.464482"/>
+</node>
+  <way id="527" visible="true" version="1">
+<nd ref="524"/>
+<nd ref="525"/>
+<nd ref="526"/>
+<tag k="type" v="light_bulbs"/>
+<tag k="traffic_light_id" v="523"/>
+</way>
+  <node id="528" lat="37.4166920986863" lon="-122.015682958114" visible="true" version="1">
+<tag k="local_y" v="-23.364"/>
+<tag k="local_x" v="31.54692"/>
+<tag k="ele" v="1.246786"/>
+</node>
+  <node id="529" lat="37.4166921626124" lon="-122.015690635418" visible="true" version="1">
+<tag k="local_y" v="-23.364"/>
+<tag k="local_x" v="30.86747"/>
+<tag k="ele" v="1.246786"/>
+</node>
+  <way id="530" visible="true" version="1">
+<nd ref="528"/>
+<nd ref="529"/>
+<tag k="type" v="traffic_light"/>
+<tag k="subtype" v="red_yellow_green"/>
+<tag k="height" v="1.59200096130371"/>
+</way>
+  <node id="531" lat="37.4166921306494" lon="-122.015686796766" visible="true" version="1">
+<tag k="color" v="red"/>
+<tag k="local_y" v="-23.364"/>
+<tag k="local_x" v="31.20719"/>
+<tag k="ele" v="2.442787"/>
+</node>
+  <node id="532" lat="37.4166921306494" lon="-122.015686796766" visible="true" version="1">
+<tag k="color" v="yellow"/>
+<tag k="local_y" v="-23.364"/>
+<tag k="local_x" v="31.20719"/>
+<tag k="ele" v="2.042787"/>
+</node>
+  <node id="533" lat="37.4166921306494" lon="-122.015686796766" visible="true" version="1">
+<tag k="color" v="green"/>
+<tag k="local_y" v="-23.364"/>
+<tag k="local_x" v="31.20719"/>
+<tag k="ele" v="1.642786"/>
+</node>
+  <way id="534" visible="true" version="1">
+<nd ref="531"/>
+<nd ref="532"/>
+<nd ref="533"/>
+<tag k="type" v="light_bulbs"/>
+<tag k="traffic_light_id" v="530"/>
+</way>
+  <relation id="535" visible="true" version="1">
+<member type="way" ref="513" role="ref_line"/>
+<member type="way" ref="516" role="refers"/>
+<member type="way" ref="523" role="refers"/>
+<member type="way" ref="530" role="refers"/>
+<member type="way" ref="520" role="light_bulbs"/>
+<member type="way" ref="527" role="light_bulbs"/>
+<member type="way" ref="534" role="light_bulbs"/>
+<tag k="subtype" v="traffic_light"/>
+<tag k="type" v="regulatory_element"/>
+</relation>
+  <node id="536" lat="37.4169825472046" lon="-122.015672055164" visible="true" version="1">
+<tag k="local_y" v="8.87"/>
+<tag k="local_x" v="32.17533"/>
+<tag k="ele" v="-2.09"/>
+</node>
+  <node id="537" lat="37.4170665648144" lon="-122.015659043561" visible="true" version="1">
+<tag k="local_y" v="18.20339"/>
+<tag k="local_x" v="33.22943"/>
+<tag k="ele" v="-2.321963"/>
+</node>
+  <way id="538" visible="true" version="1">
+<nd ref="227"/>
+<nd ref="536"/>
+<nd ref="537"/>
+<tag k="type" v="stop_line"/>
+</way>
+  <node id="539" lat="37.4169753413349" lon="-122.016060646531" visible="true" version="1">
+<tag k="local_y" v="7.711625"/>
+<tag k="local_x" v="-2.203266"/>
+<tag k="ele" v="4.289195"/>
+</node>
+  <node id="540" lat="37.4169799023454" lon="-122.016060586857" visible="true" version="1">
+<tag k="local_y" v="8.217703"/>
+<tag k="local_x" v="-2.203266"/>
+<tag k="ele" v="4.289195"/>
+</node>
+  <way id="541" visible="true" version="1">
+<nd ref="539"/>
+<nd ref="540"/>
+<tag k="type" v="traffic_light"/>
+<tag k="subtype" v="red_yellow_green"/>
+<tag k="height" v="1.18621826171875"/>
+</way>
+  <node id="542" lat="37.416977621838" lon="-122.016060616694" visible="true" version="1">
+<tag k="color" v="red"/>
+<tag k="local_y" v="7.964664"/>
+<tag k="local_x" v="-2.203266"/>
+<tag k="ele" v="5.282304"/>
+</node>
+  <node id="543" lat="37.416977621838" lon="-122.016060616694" visible="true" version="1">
+<tag k="color" v="yellow"/>
+<tag k="local_y" v="7.964664"/>
+<tag k="local_x" v="-2.203266"/>
+<tag k="ele" v="4.882304"/>
+</node>
+  <node id="544" lat="37.416977621838" lon="-122.016060616694" visible="true" version="1">
+<tag k="color" v="green"/>
+<tag k="local_y" v="7.964664"/>
+<tag k="local_x" v="-2.203266"/>
+<tag k="ele" v="4.482304"/>
+</node>
+  <way id="545" visible="true" version="1">
+<nd ref="542"/>
+<nd ref="543"/>
+<nd ref="544"/>
+<tag k="type" v="light_bulbs"/>
+<tag k="traffic_light_id" v="541"/>
+</way>
+  <node id="546" lat="37.4169307731046" lon="-122.015986457212" visible="true" version="1">
+<tag k="local_y" v="2.835497"/>
+<tag k="local_x" v="4.413445"/>
+<tag k="ele" v="2.402851"/>
+</node>
+  <node id="547" lat="37.4169366591601" lon="-122.015986380197" visible="true" version="1">
+<tag k="local_y" v="3.488599"/>
+<tag k="local_x" v="4.413445"/>
+<tag k="ele" v="2.402851"/>
+</node>
+  <way id="548" visible="true" version="1">
+<nd ref="546"/>
+<nd ref="547"/>
+<tag k="type" v="traffic_light"/>
+<tag k="subtype" v="red_yellow_green"/>
+<tag k="height" v="1.53083515167236"/>
+</way>
+  <node id="549" lat="37.4169337161324" lon="-122.015986418705" visible="true" version="1">
+<tag k="color" v="red"/>
+<tag k="local_y" v="3.162048"/>
+<tag k="local_x" v="4.413445"/>
+<tag k="ele" v="3.568268"/>
+</node>
+  <node id="550" lat="37.4169337161324" lon="-122.015986418705" visible="true" version="1">
+<tag k="color" v="yellow"/>
+<tag k="local_y" v="3.162048"/>
+<tag k="local_x" v="4.413445"/>
+<tag k="ele" v="3.168268"/>
+</node>
+  <node id="551" lat="37.4169337161324" lon="-122.015986418705" visible="true" version="1">
+<tag k="color" v="green"/>
+<tag k="local_y" v="3.162048"/>
+<tag k="local_x" v="4.413445"/>
+<tag k="ele" v="2.768268"/>
+</node>
+  <way id="552" visible="true" version="1">
+<nd ref="549"/>
+<nd ref="550"/>
+<nd ref="551"/>
+<tag k="type" v="light_bulbs"/>
+<tag k="traffic_light_id" v="548"/>
+</way>
+  <node id="553" lat="37.4170620290375" lon="-122.015628739521" visible="true" version="1">
+<tag k="local_y" v="17.72816"/>
+<tag k="local_x" v="35.91632"/>
+<tag k="ele" v="2.018119"/>
+</node>
+  <node id="554" lat="37.4170677739717" lon="-122.015628664324" visible="true" version="1">
+<tag k="local_y" v="18.3656"/>
+<tag k="local_x" v="35.91632"/>
+<tag k="ele" v="2.018119"/>
+</node>
+  <way id="555" visible="true" version="1">
+<nd ref="553"/>
+<nd ref="554"/>
+<tag k="type" v="traffic_light"/>
+<tag k="subtype" v="red_yellow_green"/>
+<tag k="height" v="1.59200191497803"/>
+</way>
+  <node id="556" lat="37.4170649015046" lon="-122.015628701922" visible="true" version="1">
+<tag k="color" v="red"/>
+<tag k="local_y" v="18.04688"/>
+<tag k="local_x" v="35.91632"/>
+<tag k="ele" v="3.21412"/>
+</node>
+  <node id="557" lat="37.4170649015046" lon="-122.015628701922" visible="true" version="1">
+<tag k="color" v="yellow"/>
+<tag k="local_y" v="18.04688"/>
+<tag k="local_x" v="35.91632"/>
+<tag k="ele" v="2.81412"/>
+</node>
+  <node id="558" lat="37.4170649015046" lon="-122.015628701922" visible="true" version="1">
+<tag k="color" v="green"/>
+<tag k="local_y" v="18.04688"/>
+<tag k="local_x" v="35.91632"/>
+<tag k="ele" v="2.41412"/>
+</node>
+  <way id="559" visible="true" version="1">
+<nd ref="556"/>
+<nd ref="557"/>
+<nd ref="558"/>
+<tag k="type" v="light_bulbs"/>
+<tag k="traffic_light_id" v="555"/>
+</way>
+  <node id="560" lat="37.4170543116694" lon="-122.016059214787" visible="true" version="1">
+<tag k="local_y" v="16.47434"/>
+<tag k="local_x" v="-2.167999"/>
+<tag k="ele" v="1.135212"/>
+</node>
+  <node id="561" lat="37.4170588726669" lon="-122.016059155113" visible="true" version="1">
+<tag k="local_y" v="16.98042"/>
+<tag k="local_x" v="-2.167999"/>
+<tag k="ele" v="1.135212"/>
+</node>
+  <way id="562" visible="true" version="1">
+<nd ref="560"/>
+<nd ref="561"/>
+<tag k="type" v="traffic_light"/>
+<tag k="subtype" v="red_yellow_green"/>
+<tag k="height" v="1.18621921539307"/>
+</way>
+  <node id="563" lat="37.4170565921681" lon="-122.01605918495" visible="true" version="1">
+<tag k="color" v="red"/>
+<tag k="local_y" v="16.72738"/>
+<tag k="local_x" v="-2.167999"/>
+<tag k="ele" v="2.078322"/>
+</node>
+  <node id="564" lat="37.4170565921681" lon="-122.01605918495" visible="true" version="1">
+<tag k="color" v="yellow"/>
+<tag k="local_y" v="16.72738"/>
+<tag k="local_x" v="-2.167999"/>
+<tag k="ele" v="1.728322"/>
+</node>
+  <node id="565" lat="37.4170565921681" lon="-122.01605918495" visible="true" version="1">
+<tag k="color" v="green"/>
+<tag k="local_y" v="16.72738"/>
+<tag k="local_x" v="-2.167999"/>
+<tag k="ele" v="1.378322"/>
+</node>
+  <way id="566" visible="true" version="1">
+<nd ref="563"/>
+<nd ref="564"/>
+<nd ref="565"/>
+<tag k="type" v="light_bulbs"/>
+<tag k="traffic_light_id" v="562"/>
+</way>
+  <relation id="567" visible="true" version="1">
+<member type="way" ref="538" role="ref_line"/>
+<member type="way" ref="541" role="refers"/>
+<member type="way" ref="548" role="refers"/>
+<member type="way" ref="555" role="refers"/>
+<member type="way" ref="562" role="refers"/>
+<member type="way" ref="545" role="light_bulbs"/>
+<member type="way" ref="552" role="light_bulbs"/>
+<member type="way" ref="559" role="light_bulbs"/>
+<member type="way" ref="566" role="light_bulbs"/>
+<tag k="subtype" v="traffic_light"/>
+<tag k="type" v="regulatory_element"/>
+</relation>
+  <node id="568" lat="37.4166834915632" lon="-122.015770727842" visible="true" version="1">
+<tag k="local_y" v="-24.4"/>
+<tag k="local_x" v="23.79"/>
+<tag k="ele" v="-1.71"/>
+</node>
+  <way id="569" visible="true" version="1">
+<nd ref="85"/>
+<nd ref="568"/>
+<nd ref="93"/>
+<tag k="type" v="stop_line"/>
+</way>
+  <node id="570" lat="37.4170941879233" lon="-122.015821679622" visible="true" version="1">
+<tag k="local_y" v="21.11781"/>
+<tag k="local_x" v="18.80559"/>
+<tag k="ele" v="3.974327"/>
+</node>
+  <node id="571" lat="37.4170941278629" lon="-122.01581446564" visible="true" version="1">
+<tag k="local_y" v="21.11781"/>
+<tag k="local_x" v="19.44403"/>
+<tag k="ele" v="3.974327"/>
+</node>
+  <way id="572" visible="true" version="1">
+<nd ref="570"/>
+<nd ref="571"/>
+<tag k="type" v="traffic_light"/>
+<tag k="subtype" v="red_yellow_green"/>
+<tag k="height" v="1.49646854400635"/>
+</way>
+  <node id="573" lat="37.4170941578931" lon="-122.015818072631" visible="true" version="1">
+<tag k="color" v="red"/>
+<tag k="local_y" v="21.11781"/>
+<tag k="local_x" v="19.12481"/>
+<tag k="ele" v="5.122561"/>
+</node>
+  <node id="574" lat="37.4170941578931" lon="-122.015818072631" visible="true" version="1">
+<tag k="color" v="yellow"/>
+<tag k="local_y" v="21.11781"/>
+<tag k="local_x" v="19.12481"/>
+<tag k="ele" v="4.722561"/>
+</node>
+  <node id="575" lat="37.4170941578931" lon="-122.015818072631" visible="true" version="1">
+<tag k="color" v="green"/>
+<tag k="local_y" v="21.11781"/>
+<tag k="local_x" v="19.12481"/>
+<tag k="ele" v="4.322561"/>
+</node>
+  <way id="576" visible="true" version="1">
+<nd ref="573"/>
+<nd ref="574"/>
+<nd ref="575"/>
+<tag k="type" v="light_bulbs"/>
+<tag k="traffic_light_id" v="572"/>
+</way>
+  <node id="577" lat="37.4170998545127" lon="-122.015952136033" visible="true" version="1">
+<tag k="local_y" v="21.626"/>
+<tag k="local_x" v="7.254791"/>
+<tag k="ele" v="1.246786"/>
+</node>
+  <node id="578" lat="37.417099790613" lon="-122.015944459894" visible="true" version="1">
+<tag k="local_y" v="21.626"/>
+<tag k="local_x" v="7.934135"/>
+<tag k="ele" v="1.246786"/>
+</node>
+  <way id="579" visible="true" version="1">
+<nd ref="577"/>
+<nd ref="578"/>
+<tag k="type" v="traffic_light"/>
+<tag k="subtype" v="red_yellow_green"/>
+<tag k="height" v="1.59200096130371"/>
+</way>
+  <node id="580" lat="37.417099822563" lon="-122.015948297964" visible="true" version="1">
+<tag k="color" v="red"/>
+<tag k="local_y" v="21.626"/>
+<tag k="local_x" v="7.594463"/>
+<tag k="ele" v="2.442787"/>
+</node>
+  <node id="581" lat="37.417099822563" lon="-122.015948297964" visible="true" version="1">
+<tag k="color" v="yellow"/>
+<tag k="local_y" v="21.626"/>
+<tag k="local_x" v="7.594463"/>
+<tag k="ele" v="2.042787"/>
+</node>
+  <node id="582" lat="37.417099822563" lon="-122.015948297964" visible="true" version="1">
+<tag k="color" v="green"/>
+<tag k="local_y" v="21.626"/>
+<tag k="local_x" v="7.594463"/>
+<tag k="ele" v="1.642786"/>
+</node>
+  <way id="583" visible="true" version="1">
+<nd ref="580"/>
+<nd ref="581"/>
+<nd ref="582"/>
+<tag k="type" v="light_bulbs"/>
+<tag k="traffic_light_id" v="579"/>
+</way>
+  <node id="584" lat="37.4170925677938" lon="-122.015685347597" visible="true" version="1">
+<tag k="local_y" v="21.064"/>
+<tag k="local_x" v="30.87164"/>
+<tag k="ele" v="1.109623"/>
+</node>
+  <node id="585" lat="37.4170925071932" lon="-122.015678069736" visible="true" version="1">
+<tag k="local_y" v="21.064"/>
+<tag k="local_x" v="31.51574"/>
+<tag k="ele" v="1.109623"/>
+</node>
+  <way id="586" visible="true" version="1">
+<nd ref="584"/>
+<nd ref="585"/>
+<tag k="type" v="traffic_light"/>
+<tag k="subtype" v="red_yellow_green"/>
+<tag k="height" v="1.50971794128418"/>
+</way>
+  <node id="587" lat="37.4170925374936" lon="-122.015681708667" visible="true" version="1">
+<tag k="color" v="red"/>
+<tag k="local_y" v="21.064"/>
+<tag k="local_x" v="31.19369"/>
+<tag k="ele" v="2.264482"/>
+</node>
+  <node id="588" lat="37.4170925374936" lon="-122.015681708667" visible="true" version="1">
+<tag k="color" v="yellow"/>
+<tag k="local_y" v="21.064"/>
+<tag k="local_x" v="31.19369"/>
+<tag k="ele" v="1.864482"/>
+</node>
+  <node id="589" lat="37.4170925374936" lon="-122.015681708667" visible="true" version="1">
+<tag k="color" v="green"/>
+<tag k="local_y" v="21.064"/>
+<tag k="local_x" v="31.19369"/>
+<tag k="ele" v="1.464482"/>
+</node>
+  <way id="590" visible="true" version="1">
+<nd ref="587"/>
+<nd ref="588"/>
+<nd ref="589"/>
+<tag k="type" v="light_bulbs"/>
+<tag k="traffic_light_id" v="586"/>
+</way>
+  <node id="591" lat="37.4166842145974" lon="-122.015690856525" visible="true" version="1">
+<tag k="local_y" v="-24.246"/>
+<tag k="local_x" v="30.85711"/>
+<tag k="ele" v="1.246786"/>
+</node>
+  <node id="592" lat="37.416684150682" lon="-122.015683180515" visible="true" version="1">
+<tag k="local_y" v="-24.246"/>
+<tag k="local_x" v="31.53644"/>
+<tag k="ele" v="1.246786"/>
+</node>
+  <way id="593" visible="true" version="1">
+<nd ref="591"/>
+<nd ref="592"/>
+<tag k="type" v="traffic_light"/>
+<tag k="subtype" v="red_yellow_green"/>
+<tag k="height" v="1.59200096130371"/>
+</way>
+  <node id="594" lat="37.4166841826397" lon="-122.01568701852" visible="true" version="1">
+<tag k="color" v="red"/>
+<tag k="local_y" v="-24.246"/>
+<tag k="local_x" v="31.19677"/>
+<tag k="ele" v="2.442787"/>
+</node>
+  <node id="595" lat="37.4166841826397" lon="-122.01568701852" visible="true" version="1">
+<tag k="color" v="yellow"/>
+<tag k="local_y" v="-24.246"/>
+<tag k="local_x" v="31.19677"/>
+<tag k="ele" v="2.042787"/>
+</node>
+  <node id="596" lat="37.4166841826397" lon="-122.01568701852" visible="true" version="1">
+<tag k="color" v="green"/>
+<tag k="local_y" v="-24.246"/>
+<tag k="local_x" v="31.19677"/>
+<tag k="ele" v="1.642786"/>
+</node>
+  <way id="597" visible="true" version="1">
+<nd ref="594"/>
+<nd ref="595"/>
+<nd ref="596"/>
+<tag k="type" v="light_bulbs"/>
+<tag k="traffic_light_id" v="593"/>
+</way>
+  <relation id="598" visible="true" version="1">
+<member type="way" ref="569" role="ref_line"/>
+<member type="way" ref="572" role="refers"/>
+<member type="way" ref="579" role="refers"/>
+<member type="way" ref="586" role="refers"/>
+<member type="way" ref="593" role="refers"/>
+<member type="way" ref="576" role="light_bulbs"/>
+<member type="way" ref="583" role="light_bulbs"/>
+<member type="way" ref="590" role="light_bulbs"/>
+<member type="way" ref="597" role="light_bulbs"/>
+<tag k="subtype" v="traffic_light"/>
+<tag k="type" v="regulatory_element"/>
+</relation>
+  <node id="599" lat="37.420013060637" lon="-122.015962374056" visible="true" version="1">
+<tag k="local_y" v="344.8235"/>
+<tag k="local_x" v="2.975525"/>
+<tag k="ele" v="-7.339608"/>
+</node>
+  <node id="600" lat="37.4199718571929" lon="-122.015961630432" visible="true" version="1">
+<tag k="local_y" v="340.2528"/>
+<tag k="local_x" v="3.089039"/>
+<tag k="ele" v="-7.290234"/>
+</node>
+  <way id="601" visible="true" version="1">
+<nd ref="129"/>
+<nd ref="599"/>
+<nd ref="600"/>
+<tag k="type" v="stop_line"/>
+</way>
+  <node id="602" lat="37.419978918449" lon="-122.016046254389" visible="true" version="1">
+<tag k="local_y" v="340.9581"/>
+<tag k="local_x" v="-4.40732"/>
+<tag k="ele" v="-5.166318"/>
+</node>
+  <node id="603" lat="37.4199705525754" lon="-122.016048540994" visible="true" version="1">
+<tag k="local_y" v="340.0278"/>
+<tag k="local_x" v="-4.59997"/>
+<tag k="ele" v="-5.166318"/>
+</node>
+  <way id="604" visible="true" version="1">
+<nd ref="602"/>
+<nd ref="603"/>
+<tag k="height" v="0.949999988079071"/>
+<tag k="subtype" v="stop_sign"/>
+<tag k="type" v="traffic_sign"/>
+</way>
+  <relation id="605" visible="true" version="1">
+<member type="way" ref="601" role="ref_line"/>
+<member type="way" ref="604" role="refers"/>
+<tag k="subtype" v="traffic_sign"/>
+<tag k="type" v="regulatory_element"/>
+</relation>
+  <node id="606" lat="37.4201101044989" lon="-122.015672899735" visible="true" version="1">
+<tag k="local_y" v="355.8574"/>
+<tag k="local_x" v="28.47803"/>
+<tag k="ele" v="-7.555426"/>
+</node>
+  <node id="607" lat="37.4201680861074" lon="-122.015672201856" visible="true" version="1">
+<tag k="local_y" v="362.2909"/>
+<tag k="local_x" v="28.47263"/>
+<tag k="ele" v="-7.670261"/>
+</node>
+  <way id="608" visible="true" version="1">
+<nd ref="118"/>
+<nd ref="606"/>
+<nd ref="607"/>
+<tag k="type" v="stop_line"/>
+</way>
+  <node id="609" lat="37.4201430103215" lon="-122.015618357913" visible="true" version="1">
+<tag k="local_y" v="359.5586"/>
+<tag k="local_x" v="33.26619"/>
+<tag k="ele" v="-5.471574"/>
+</node>
+  <node id="610" lat="37.420150713647" lon="-122.015613936328" visible="true" version="1">
+<tag k="local_y" v="360.4173"/>
+<tag k="local_x" v="33.64852"/>
+<tag k="ele" v="-5.471574"/>
+</node>
+  <way id="611" visible="true" version="1">
+<nd ref="609"/>
+<nd ref="610"/>
+<tag k="height" v="0.949733734130859"/>
+<tag k="subtype" v="stop_sign"/>
+<tag k="type" v="traffic_sign"/>
+</way>
+  <relation id="612" visible="true" version="1">
+<member type="way" ref="608" role="ref_line"/>
+<member type="way" ref="611" role="refers"/>
+<tag k="subtype" v="traffic_sign"/>
+<tag k="type" v="regulatory_element"/>
+</relation>
+  <node id="613" lat="37.4166966687494" lon="-122.015930200455" visible="true" version="1">
+<tag k="local_y" v="-23.08535"/>
+<tag k="local_x" v="9.662754"/>
+<tag k="ele" v="-1.753864"/>
+</node>
+  <node id="614" lat="37.4167227502802" lon="-122.015940981371" visible="true" version="1">
+<tag k="local_y" v="-20.20168"/>
+<tag k="local_x" v="8.678534"/>
+<tag k="ele" v="-1.797765"/>
+</node>
+  <node id="615" lat="37.4167008146332" lon="-122.01571779882" visible="true" version="1">
+<tag k="local_y" v="-22.42919"/>
+<tag k="local_x" v="28.45371"/>
+<tag k="ele" v="-1.88019"/>
+</node>
+  <node id="616" lat="37.4166805205906" lon="-122.015725817229" visible="true" version="1">
+<tag k="local_y" v="-24.68813"/>
+<tag k="local_x" v="27.76765"/>
+<tag k="ele" v="-1.856227"/>
+</node>
+  <way id="617" visible="true" version="1">
+<nd ref="613"/>
+<nd ref="616"/>
+</way>
+  <way id="618" visible="true" version="1">
+<nd ref="614"/>
+<nd ref="615"/>
+</way>
+  <relation id="619" visible="true" version="1">
+<member type="way" ref="617" role="left"/>
+<member type="way" ref="618" role="right"/>
+<tag k="subtype" v="crosswalk"/>
+<tag k="type" v="lanelet"/>
+</relation>
+  <node id="620" lat="37.416742376183" lon="-122.015686652553" visible="true" version="1">
+<tag k="local_y" v="-17.78936"/>
+<tag k="local_x" v="31.16176"/>
+<tag k="ele" v="-1.935894"/>
+</node>
+  <node id="621" lat="37.4168915685248" lon="-122.015681616125" visible="true" version="1">
+<tag k="local_y" v="-1.232499"/>
+<tag k="local_x" v="31.43464"/>
+<tag k="ele" v="-1.686902"/>
+</node>
+  <node id="622" lat="37.4168945657868" lon="-122.015715252579" visible="true" version="1">
+<tag k="local_y" v="-0.9310398"/>
+<tag k="local_x" v="28.45464"/>
+<tag k="ele" v="-1.911415"/>
+</node>
+  <way id="623" visible="true" version="1">
+<nd ref="615"/>
+<nd ref="622"/>
+</way>
+  <way id="624" visible="true" version="1">
+<nd ref="620"/>
+<nd ref="621"/>
+</way>
+  <relation id="625" visible="true" version="1">
+<member type="way" ref="623" role="left"/>
+<member type="way" ref="624" role="right"/>
+<tag k="subtype" v="crosswalk"/>
+<tag k="type" v="lanelet"/>
+</relation>
+  <node id="626" lat="37.4170769048913" lon="-122.015702520627" visible="true" version="1">
+<tag k="local_y" v="19.31041"/>
+<tag k="local_x" v="29.37012"/>
+<tag k="ele" v="-2.384862"/>
+</node>
+  <node id="627" lat="37.4170655252418" lon="-122.015658942026" visible="true" version="1">
+<tag k="local_y" v="18.08815"/>
+<tag k="local_x" v="33.23962"/>
+<tag k="ele" v="-1.935894"/>
+</node>
+  <way id="628" visible="true" version="1">
+<nd ref="626"/>
+<nd ref="622"/>
+</way>
+  <way id="629" visible="true" version="1">
+<nd ref="627"/>
+<nd ref="621"/>
+</way>
+  <relation id="630" visible="true" version="1">
+<member type="way" ref="628" role="left"/>
+<member type="way" ref="629" role="right"/>
+<tag k="subtype" v="crosswalk"/>
+<tag k="type" v="lanelet"/>
+</relation>
+  <node id="631" lat="37.417108809284" lon="-122.015713618108" visible="true" version="1">
+<tag k="local_y" v="22.8398"/>
+<tag k="local_x" v="28.35114"/>
+<tag k="ele" v="-2.435154"/>
+</node>
+  <node id="632" lat="37.4171094001377" lon="-122.015931537036" visible="true" version="1">
+<tag k="local_y" v="22.70407"/>
+<tag k="local_x" v="9.066566"/>
+<tag k="ele" v="-2.504748"/>
+</node>
+  <node id="633" lat="37.4170785709174" lon="-122.015959215176" visible="true" version="1">
+<tag k="local_y" v="19.25814"/>
+<tag k="local_x" v="6.652994"/>
+<tag k="ele" v="-2.479368"/>
+</node>
+  <way id="634" visible="true" version="1">
+<nd ref="626"/>
+<nd ref="633"/>
+</way>
+  <way id="635" visible="true" version="1">
+<nd ref="631"/>
+<nd ref="632"/>
+</way>
+  <relation id="636" visible="true" version="1">
+<member type="way" ref="634" role="left"/>
+<member type="way" ref="635" role="right"/>
+<tag k="subtype" v="crosswalk"/>
+<tag k="type" v="lanelet"/>
+</relation>
+  <node id="637" lat="37.4170634313172" lon="-122.015992669797" visible="true" version="1">
+<tag k="local_y" v="17.54758"/>
+<tag k="local_x" v="3.710086"/>
+<tag k="ele" v="-2.006311"/>
+</node>
+  <node id="638" lat="37.416935328547" lon="-122.015965669676" visible="true" version="1">
+<tag k="local_y" v="3.360101"/>
+<tag k="local_x" v="6.247686"/>
+<tag k="ele" v="-1.818535"/>
+</node>
+  <node id="639" lat="37.4169478444711" lon="-122.01592908349" visible="true" version="1">
+<tag k="local_y" v="4.782475"/>
+<tag k="local_x" v="9.470754"/>
+<tag k="ele" v="-2.421888"/>
+</node>
+  <way id="640" visible="true" version="1">
+<nd ref="633"/>
+<nd ref="639"/>
+</way>
+  <way id="641" visible="true" version="1">
+<nd ref="637"/>
+<nd ref="638"/>
+</way>
+  <relation id="642" visible="true" version="1">
+<member type="way" ref="640" role="left"/>
+<member type="way" ref="641" role="right"/>
+<tag k="subtype" v="crosswalk"/>
+<tag k="type" v="lanelet"/>
+</relation>
+  <node id="643" lat="37.4167506060364" lon="-122.015974626759" visible="true" version="1">
+<tag k="local_y" v="-17.14228"/>
+<tag k="local_x" v="5.668947"/>
+<tag k="ele" v="-1.933414"/>
+</node>
+  <way id="644" visible="true" version="1">
+<nd ref="639"/>
+<nd ref="614"/>
+</way>
+  <way id="645" visible="true" version="1">
+<nd ref="638"/>
+<nd ref="643"/>
+</way>
+  <relation id="646" visible="true" version="1">
+<member type="way" ref="644" role="left"/>
+<member type="way" ref="645" role="right"/>
+<tag k="subtype" v="crosswalk"/>
+<tag k="type" v="lanelet"/>
+</relation>
+</osm>

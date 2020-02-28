@@ -3,8 +3,8 @@
     <!--
     TODO : Replace args
     -->
-    <arg name="lanelet2_osm_path" default=""/
-    <arg name="pcd_file_path" default="">
+    <arg name="lanelet2_osm_path" default="$(find aichallenge_bringup)/data/lanelet2_fixed.osm"/>
+    <arg name="pcd_file_path" default="$(find aichallenge_bringup)/data/simulator.pcd"/>
 
 
     <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch">
@@ -15,5 +15,14 @@
         <arg name="file_name" default="$(arg lanelet2_osm_path)"/>
     </include>
 
-    <node pkg="map_file" type="points_map_loader" name="points_map_loader" args="1x1 $(arg pcd_file_path)"/>
+    <node pkg="map_file" type="points_map_loader" name="points_map_loader" args="noupdate $(arg pcd_file_path)"/>
+
+    <node pkg="aichallenge_bringup" type="yaml_to_camera_info_publisher.py" name="front_camera_info_publisher" output="log" respawn="false" respawn_delay="0" args="">
+        <param name="filename" value="$(find aichallenge_bringup)/data/front_camera.yaml"/>
+        <param name="cameraname" value="front_camera"/>
+        <param name="frame_id" value="front_camera_optical_link"/>
+    </node>
+
+    <param name="robot_description" textfile="$(find aichallenge_bringup)/data/lexus.urdf" />
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
 </launch>

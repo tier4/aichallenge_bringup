@@ -23,3 +23,10 @@ foreach(dir launch data)
   install(DIRECTORY ${dir}/
     DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/${dir})
 endforeach(dir)
+
+set(PYTHON_SCRIPTS 
+  scripts/yaml_to_camera_info_publisher.py)
+foreach(scripts ${PYTHON_SCRIPTS})
+  catkin_install_python(PROGRAMS ${scripts}
+    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
+endforeach(scripts)
