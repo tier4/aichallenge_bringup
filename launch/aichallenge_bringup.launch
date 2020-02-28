@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<launch>
+    <!--
+    TODO : Replace args
+    -->
+    <arg name="lanelet2_osm_path" default=""/
+    <arg name="pcd_file_path" default="">
+
+
+    <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch">
+    </include>
+
+    <!--<include file="$(find ai_challenge_bringup)/launch/user_nodes.launch"/>-->
+    <include file="$(find map_file)/launch/lanelet2_map_loader.launch">
+        <arg name="file_name" default="$(arg lanelet2_osm_path)"/>
+    </include>
+
+    <node pkg="map_file" type="points_map_loader" name="points_map_loader" args="1x1 $(arg pcd_file_path)"/>
+</launch>
