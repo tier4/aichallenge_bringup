@@ -16,7 +16,7 @@ colcon build
 ```
 ### シミュレータのダウンロードと起動
 大会HPからシミュレータのバイナリをダウンロード  
-./simulator  
+https://www.jsae.or.jp/jaaic/rule.html
 
 ![画面](/image/initial.png)  
 
