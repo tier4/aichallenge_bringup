@@ -17,7 +17,7 @@ state.transform.position.x = state.transform.position.x - 33.5
 state.transform.position.z = state.transform.position.z - 150
 state.transform.rotation.y = state.transform.rotation.y + 180
 agent = sim.add_agent("Lexus", lgsvl.AgentType.EGO, state)
-agent.connect_bridge("10.100.2.0", 9090)
+agent.connect_bridge(os.environ.get("BRIDGE_HOST", "127.0.0.1"), 9090)
 
 sx = state.transform.position.x + 10
 sy = state.transform.position.y 
