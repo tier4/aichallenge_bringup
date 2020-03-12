@@ -16,7 +16,7 @@ state.transform.position.z = state.transform.position.z
 forward = lgsvl.utils.transform_to_forward(spawns[0])
 state.velocity = 5 * forward
 agent = sim.add_agent("Lexus", lgsvl.AgentType.EGO, state)
-agent.connect_bridge("10.100.2.0", 9090)
+agent.connect_bridge(os.environ.get("BRIDGE_HOST", "127.0.0.1"), 9090)
 
 sim.weather = lgsvl.WeatherState(rain=0.8, fog=0.6, wetness=0.6)
 sim.set_time_of_day(19)
