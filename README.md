@@ -56,6 +56,8 @@ rviz
 ```
 ![画面](/image/rviz.png)
 
+rvizのGUIが表示されたら左上のFileからOpen Configを選択し、aichallenge_bringupパッケージのdataの中にあるaichallenge.rvizを選ぶ。
+
 ## シナリオを実行して点数を算出する
 ### LGSVL Simulator Python APIのセットアップ
 https://github.com/lgsvl/PythonAPI
