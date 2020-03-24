@@ -88,3 +88,63 @@ roscd aichallnge_bringup/scenario
 python3 traffic_light.py
 ```
 スコアは/traffic_light/scoreトピックにstd_msgs/Float32で配信される
+
+### 車両の制御コマンド
+車両にはautoware_msgs/VehicleCmd型で制御コマンドを送ることができます。
+本コンテストにおいてサポートしているコマンドはVehicleCmdの中のcontrol_cmd内部に存在するlinear_acceleration,steering_angleとなります。
+また、gearの値は必ず64（ドライブ）に設定してください。
+本コンテストのタスクにはバック走行が無いためバックギアはサポートいたしません。
+
+
+```
+std_msgs/Header header
+  uint32 seq
+  time stamp
+  string frame_id
+autoware_msgs/SteerCmd steer_cmd
+  std_msgs/Header header
+    uint32 seq
+    time stamp
+    string frame_id
+  int32 steer
+autoware_msgs/AccelCmd accel_cmd
+  std_msgs/Header header
+    uint32 seq
+    time stamp
+    string frame_id
+  int32 accel
+autoware_msgs/BrakeCmd brake_cmd
+  std_msgs/Header header
+    uint32 seq
+    time stamp
+    string frame_id
+  int32 brake
+autoware_msgs/LampCmd lamp_cmd
+  std_msgs/Header header
+    uint32 seq
+    time stamp
+    string frame_id
+  int32 l
+  int32 r
+int32 gear
+int32 mode
+geometry_msgs/TwistStamped twist_cmd
+  std_msgs/Header header
+    uint32 seq
+    time stamp
+    string frame_id
+  geometry_msgs/Twist twist
+    geometry_msgs/Vector3 linear
+      float64 x
+      float64 y
+      float64 z
+    geometry_msgs/Vector3 angular
+      float64 x
+      float64 y
+      float64 z
+autoware_msgs/ControlCommand ctrl_cmd
+  float64 linear_velocity
+  float64 linear_acceleration
+  float64 steering_angle
+int32 emergency
+```
