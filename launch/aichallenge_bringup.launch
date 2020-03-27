@@ -1,16 +1,20 @@
 <?xml version="1.0"?>
 <launch>
-    <!--
-    TODO : Replace args
-    -->
     <arg name="lanelet2_osm_path" default="$(find aichallenge_bringup)/data/lanelet2_fixed.osm"/>
     <arg name="pcd_file_path" default="$(find aichallenge_bringup)/data/simulator.pcd"/>
-
+    <arg name="acc" default="false"/>
+    <arg name="avoid" default="false"/>
+    <arg name="traffic_light" default="false"/>
 
     <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch">
     </include>
 
-    <!--<include file="$(find ai_challenge_bringup)/launch/user_nodes.launch"/>-->
+    <include file="$(find aichallenge_bringup)/launch/user_nodes.launch">
+        <arg name="acc" default="$(arg acc)"/>
+        <arg name="avoid" default="$(arg avoid)"/>
+        <arg name="traffic_light" default="$(arg traffic_light)"/>
+    </include>
+
     <include file="$(find map_file)/launch/lanelet2_map_loader.launch">
         <arg name="file_name" default="$(arg lanelet2_osm_path)"/>
     </include>

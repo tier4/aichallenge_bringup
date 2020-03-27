@@ -1,4 +1,57 @@
 <?xml version="1.0"?>
 <launch>
-    <!-- ToDo : add ROS nodes developed by you -->
+    <arg name="acc" default="false"/>
+    <arg name="avoid" default="false"/>
+    <arg name="traffic_light" default="false"/>
+
+    <group if="$(arg acc)">
+        <!-- ToDo : add ROS nodes developed by you -->
+    </group>
+
+    <group if="$(arg avoid)">
+        <!-- ToDo : modify launch files and add ROS nodes developed by you -->
+        <!-- Example Launch files (Just following example waypoints)-->
+        <include file="$(find lidar_localizer)/launch/ndt_matching.launch">
+            <arg name="method_type" default="0"/>
+            <arg name="use_odom" default="false"/>
+            <arg name="imu_upside_down" default="false"/>
+            <arg name="imu_topic" default="/imu_raw"/>
+            <arg name="get_height" default="true"/>
+        </include>
+
+        <node pkg="rviz" type="rviz" name="rviz" args="-d $(find aichallenge_bringup)/data/aichallenge.rviz">
+        </node>
+
+        <rosparam command="load" file="$(find aichallenge_bringup)/data/localizer.yaml"/>
+        <node pkg="tf2_ros"  type="static_transform_publisher" name="world_to_map" args="0 0 0 0 0 0 world map"/>
+        <node pkg="tf2_ros"  type="static_transform_publisher" name="baselink_to_velodyne" args="0 0 0 0 0 0 base_link velodyne"/>
+
+        <node pkg="rostopic" type="rostopic" name="arbitrary_name" args="pub /config/ndt autoware_config_msgs/ConfigNDT
+            '{ header: auto,
+            init_pos_gnss: 0,
+            x: 0.0,
+            y: 0.0,
+            z: 0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: 0.0,
+            use_predict_pose: 1,
+            error_threshold: 1.0,
+            resolution: 1.0,
+            step_size: 0.10000000149,
+            trans_epsilon: 0.00999999977648,
+            max_iterations: 30 }' " output="screen">
+        </node>
+
+        <include file="$(find points_downsampler)/launch/points_downsample.launch">
+            <arg name="points_topic" default="/top_velodyne/points_raw"/>
+        </include>
+
+        <node pkg="aichallenge_bringup" type="initial_pose_publisher.py" name="initial_pose_publisher">    
+        </node>
+    </group>
+
+    <group if="$(arg traffic_light)">
+        <!-- ToDo : add ROS nodes developed by you -->
+    </group>
 </launch>

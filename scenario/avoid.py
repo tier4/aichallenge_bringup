@@ -29,4 +29,4 @@ npc_state.transform = sim.map_point_on_lane(point)
 npc = sim.add_agent("Sedan", lgsvl.AgentType.NPC, npc_state)
 #npc.follow_closest_lane(True, 0)
 
-sim.run(time_limit = 30.0)
+sim.run(time_limit = 0.0)
