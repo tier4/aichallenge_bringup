@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <include file="$(find aichallenge_bringup)/launch/aichallenge_bringup.launch">
+        <arg name="avoid" value="true"/>
+    </include>
+</launch>
