@@ -148,3 +148,26 @@ autoware_msgs/ControlCommand ctrl_cmd
   float64 steering_angle
 int32 emergency
 ```
+
+# オンライン評価環境におけるlaunch手順ならびそのサンプル
+
+オンライン評価環境においては以下の手順とコマンドにより評価を行います。
+
+1. シミュレータの起動
+
+本READMEに記述された手順と同様にしてシミュレータをAPIモードで起動します。
+
+2. シナリオスクリプトの実行
+```
+python3 (シナリオ名)_eval.py
+```
+
+このとき再生されるシナリオは本パッケージのscenarioディレクトリの中にあるpythonスクリプトに若干の修正（自車両の初速や、他車との相対的な位置関係等）を入れたものとなります。  
+ただし、初期姿勢に関してはサンプルシナリオと全く同じ値となっております。
+
+3. Autoware並びに参加者の皆様のノードの起動
+```
+roslaunch aichallenge_bringup aichallenge_bringup.launch acc:=(true or false) avoid:=(true or false) traffic_light:=(true or false)
+```
+
+上記のコマンドを用いてシナリオごとに参加者の皆様が作成されたlaunchファイルを呼び出し、評価を行います。
