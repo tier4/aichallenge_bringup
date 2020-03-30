@@ -53,6 +53,23 @@
         <include file="$(find lane_planner)/launch/lane_rule_option.launch"/>
         <include file="$(find lane_planner)/launch/lane_select.launch"/>
         <node pkg="lane_planner" type="lane_stop" name="lane_stop"/>
+
+        <include file="$(find autoware_connector)/launch/vel_pose_connect.launch">
+            <arg name="topic_pose_stamped" default="/ndt_pose"/>
+            <arg name="topic_twist_stamped" default="/estimate_twist"/>
+        </include>
+        <include file="$(find waypoint_maker)/launch/waypoint_loader.launch">
+            <arg name="multi_lane_csv" default="$(find aichallenge_bringup)/data/saved_waypoints.csv"/>
+            <arg name="load_csv" default="true"/>
+        </include>
+
+        <include file="$(find pure_pursuit)/launch/pure_pursuit.launch">
+            <arg name="publishes_for_steering_robot" default="true"/>
+        </include>
+        <include file="$(find waypoint_planner)/launch/astar_avoid.launch"/>
+        <include file="$(find waypoint_planner)/launch/velocity_set_option.launch"/>
+        <include file="$(find twist_filter)/launch/twist_filter.launch" />
+        <!-- Example Launch files Ends(Just following example waypoints) -->
     </group>
 
     <group if="$(arg traffic_light)">
