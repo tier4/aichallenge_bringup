@@ -49,6 +49,10 @@
 
         <node pkg="aichallenge_bringup" type="initial_pose_publisher.py" name="initial_pose_publisher">    
         </node>
+
+        <include file="$(find lane_planner)/launch/lane_rule_option.launch"/>
+        <include file="$(find lane_planner)/launch/lane_select.launch"/>
+        <node pkg="lane_planner" type="lane_stop" name="lane_stop"/>
     </group>
 
     <group if="$(arg traffic_light)">
