@@ -3,6 +3,29 @@
 2020/4/1 initial_pose_publisher.pyのinstall文がCMakeLists.txtから漏れていたため追加  
 2020/4/15 ビルドテスト用Dockerfileを追加、uploadの手順を追記、信号認識シナリオの時間帯を変更  
 
+# オンライン評価環境におけるlaunch手順ならびそのサンプル
+
+オンライン評価環境においては以下の手順とコマンドにより評価を行います。
+
+1. シミュレータの起動
+
+本READMEに記述された手順と同様にしてシミュレータをAPIモードで起動します。
+
+2. シナリオスクリプトの実行
+```
+python3 (シナリオ名)_eval.py
+```
+
+このとき再生されるシナリオは本パッケージのscenarioディレクトリの中にあるpythonスクリプトに若干の修正（自車両の初速や、他車との相対的な位置関係等）を入れたものとなります。  
+ただし、初期姿勢に関してはサンプルシナリオと全く同じ値となっております。
+
+3. Autoware並びに参加者の皆様のノードの起動
+```
+roslaunch aichallenge_bringup aichallenge_bringup.launch acc:=(true or false) avoid:=(true or false) traffic_light:=(true or false)
+```
+
+上記のコマンドを用いてシナリオごとに参加者の皆様が作成されたlaunchファイルを呼び出し、評価を行います。
+
 # オンライン評価環境にファイルをアップする手順
 
 ## Dockerでビルドが通る＋スコアが出ることを確認
@@ -206,26 +229,3 @@ steering_angleに関しては-1から1の値をfloatで入力してください�
 linear_accelerationはアクセル・ブレーキの入力値を-1~1の範囲で正規化したものとなります。
 
 正の値を入力した場合加速、負の値を入力した場合減速します。  
-
-# オンライン評価環境におけるlaunch手順ならびそのサンプル
-
-オンライン評価環境においては以下の手順とコマンドにより評価を行います。
-
-1. シミュレータの起動
-
-本READMEに記述された手順と同様にしてシミュレータをAPIモードで起動します。
-
-2. シナリオスクリプトの実行
-```
-python3 (シナリオ名)_eval.py
-```
-
-このとき再生されるシナリオは本パッケージのscenarioディレクトリの中にあるpythonスクリプトに若干の修正（自車両の初速や、他車との相対的な位置関係等）を入れたものとなります。  
-ただし、初期姿勢に関してはサンプルシナリオと全く同じ値となっております。
-
-3. Autoware並びに参加者の皆様のノードの起動
-```
-roslaunch aichallenge_bringup aichallenge_bringup.launch acc:=(true or false) avoid:=(true or false) traffic_light:=(true or false)
-```
-
-上記のコマンドを用いてシナリオごとに参加者の皆様が作成されたlaunchファイルを呼び出し、評価を行います。
