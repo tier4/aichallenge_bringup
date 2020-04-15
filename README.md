@@ -1,3 +1,50 @@
+2020/3/30 経路追従サンプルを追加  
+2020/3/31 GPSセンサのパラメータに誤りがあったためlexus.jsonを修正  
+2020/4/1 initial_pose_publisher.pyのinstall文がCMakeLists.txtから漏れていたため追加  
+2020/4/15 ビルドテスト用Dockerfileを追加、uploadの手順を追記、信号認識シナリオの時間帯を変更  
+
+# オンライン評価環境にファイルをアップする手順
+
+## Dockerでビルドが通る＋スコアが出ることを確認
+requirement: docker>=19.03
+
+```
+cd sample_aichallenge_ws
+docker build -t <tagName> .
+docker run -it --rm --gpus all -p 9090:9090 <tagName> bash
+```
+
+Dockerコンテナ内で
+```
+. ~/aichallenge_ws/install/setup.bash
+roslaunch aichallenge_bringup aichallenge_bringup.launch avoid:=true
+```
+
+on host machine running the simulator:
+```
+python3 avoid.py
+```
+
+To check the score:
+```
+# コンテナ内に入る
+docker exec -it <tagName> su autoware
+# 内で
+. ~/aichallenge_ws/install/setup.bash
+rostopic echo /obstacle_avoid/score
+```
+
+## ソースコードをtar.gzに圧縮する
+こちらのスクリプトを使ってソースを圧縮します。
+https://github.com/tier4/aichallenge_bringup/blob/master/create-tar-file.sh
+```
+cp create-tar-file.sh ~/aichallenge_ws/
+cd ~/aichallenge_ws/
+./create-tar-file.sh
+```
+
+出来上がったtarファイルを[webページ](https://simulation.tier4.jp)にログイン後アップロード
+
 # AIチャレンジ参加用リポジトリ
 ## セットアップ
 ### autowareのセットアップ
@@ -178,43 +225,3 @@ roslaunch aichallenge_bringup aichallenge_bringup.launch acc:=(true or false) av
 ```
 
 上記のコマンドを用いてシナリオごとに参加者の皆様が作成されたlaunchファイルを呼び出し、評価を行います。
-
-# オンライン評価環境にファイルをアップする手順
-
-## Dockerでビルドが通る＋スコアが出ることを確認
-requirement: docker>=19.03
-
-```
-cd sample_aichallenge_ws
-docker build -t <tagName> .
-docker run -it --rm --gpus all -p 9090:9090 <tagName> bash
-```
-
-inside the container:
-```
-. ~/aichallenge_ws/install/setup.bash
-roslaunch aichallenge_bringup aichallenge_bringup.launch avoid:=true
-```
-
-on host machine running the simulator:
-```
-python3 avoid.py
-```
-
-To check the score:
-```
-# コンテナ内に入る
-docker exec -it <tagName> su autoware
-# 内で
-. ~/aichallenge_ws/install/setup.bash
-rostopic echo /obstacle_avoid/score
-```
-
-## ソースコードをtarに固める
-```
-cp create-tar-file.sh ~/aichallenge_ws/
-cd ~/aichallenge_ws/
-./create-tar-file.sh
-```
-
-出来上がったtarファイルを[webページ](https://simulation.tier4.jp)にログイン後アップロード
