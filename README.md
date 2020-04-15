@@ -10,7 +10,8 @@ mkdir -p ~/aichallenge_ws/src
 cd ~/aichallenge_ws  
 colcon build  
 cd src  
-git lfs clone https://github.com/tier4/aichallenge_bringup.git  
+git lfs clone https://github.com/
+/aichallenge_bringup.git  
 cd ../  
 colcon build
 ```
@@ -149,6 +150,12 @@ autoware_msgs/ControlCommand ctrl_cmd
 int32 emergency
 ```
 
+steering_angleに関しては-1から1の値をfloatで入力してください。
+その値に比例して~39.4から39.4の範囲で車両の操舵角が変化します。
+正の値を入力した場合右にステアがきれます。
+linear_accelerationはアクセル・ブレーキの入力値を-1~1の範囲で正規化したものとなります。
+正の値を入力した場合加速、負の値を入力した場合減速します。
+
 # オンライン評価環境におけるlaunch手順ならびそのサンプル
 
 オンライン評価環境においては以下の手順とコマンドにより評価を行います。
@@ -171,3 +178,43 @@ roslaunch aichallenge_bringup aichallenge_bringup.launch acc:=(true or false) av
 ```
 
 上記のコマンドを用いてシナリオごとに参加者の皆様が作成されたlaunchファイルを呼び出し、評価を行います。
+
+# オンライン評価環境にファイルをアップする手順
+
+## Dockerでビルドが通る＋スコアが出ることを確認
+requirement: docker>=19.03
+
+```
+cd sample_aichallenge_ws
+docker build -t <tagName> .
+docker run -it --rm --gpus all -p 9090:9090 <tagName> bash
+```
+
+inside the container:
+```
+. ~/aichallenge_ws/install/setup.bash
+roslaunch aichallenge_bringup aichallenge_bringup.launch avoid:=true
+```
+
+on host machine running the simulator:
+```
+python3 avoid.py
+```
+
+To check the score:
+```
+# コンテナ内に入る
+docker exec -it <tagName> su autoware
+# 内で
+. ~/aichallenge_ws/install/setup.bash
+rostopic echo /obstacle_avoid/score
+```
+
+## ソースコードをtarに固める
+```
+cp create-tar-file.sh ~/aichallenge_ws/
+cd ~/aichallenge_ws/
+./create-tar-file.sh
+```
+
+出来上がったtarファイルを[webページ](https://simulation.tier4.jp)にログイン後アップロード
