@@ -70,6 +70,7 @@ cd ~/aichallenge_ws/
 
 ## 採点時の実行フロー
 提出いただいたあとは下記の手順で実行され、点数が記録されます。
+アップロードの際は同様の手順を事前に手元でご確認いただくことを推奨いたします。
 
 1. 上記のDockerfileでビルド
 https://github.com/tier4/aichallenge_bringup/blob/master/Dockerfile
