@@ -71,20 +71,21 @@ cd ~/aichallenge_ws/
 ## 採点時の実行フロー
 提出いただいたあとは下記の手順で実行され、点数が記録されます。
 
-```
 1. 上記のDockerfileでビルド
 https://github.com/tier4/aichallenge_bringup/blob/master/Dockerfile
 
 2. aichallenge_bringup.launchと採点用シナリオの実行
-具体的には
+
+具体的には以下を実行します。（avoid以外のシナリオに関しても同様です）
+```
 . ~/aichallenge_ws/install/setup.bash
 roslaunch aichallenge_bringup aichallenge_bringup.launch avoid:=true &
 sleep 10
 python3 avoid.py
-を実行します。
+```
+
 
 3. 点数トピックの出力を記録
-```
 
 # AIチャレンジ参加用リポジトリ
 ## セットアップ
