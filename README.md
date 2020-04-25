@@ -39,7 +39,7 @@ docker run -it --rm --gpus all -p 9090:9090 <tagName> bash
 
 Dockerコンテナ内で
 ```
-. ~/autoware.ai/install/setup.bash
+. ~/Autoware/install/setup.bash
 . ~/aichallenge_ws/install/setup.bash
 roslaunch aichallenge_bringup aichallenge_bringup.launch avoid:=true
 ```
