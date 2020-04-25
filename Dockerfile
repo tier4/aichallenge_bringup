@@ -6,6 +6,7 @@ RUN su -c "mkdir -p /home/autoware/aichallenge_ws" $USERNAME
 COPY --chown=autoware:autoware src /home/$USERNAME/aichallenge_ws/src
 
 # Build Autoware
+RUN apt-get update
 RUN su -c "bash -c 'cd /home/$USERNAME/; \
   source /home/$USERNAME/Autoware/install/setup.bash; \
   cd aichallenge_ws/; \
