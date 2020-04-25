@@ -63,6 +63,7 @@ https://github.com/tier4/aichallenge_bringup/blob/master/create-tar-file.sh
 ```
 cp create-tar-file.sh ~/aichallenge_ws/
 cd ~/aichallenge_ws/
+chmod +x create-tar-file.sh
 ./create-tar-file.sh
 ```
 
